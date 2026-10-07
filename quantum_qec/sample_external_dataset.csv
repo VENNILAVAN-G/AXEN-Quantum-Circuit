@@ -1,0 +1,6 @@
+Test_ID,Disturbance_Type,Affected_Qubit,T1_Decay_us,Gate_Error_Rate,Baseline_Accuracy
+EXP_NEW_001,High Frequency Laser Jitter,0,95.4,0.024,42.5
+EXP_NEW_002,Substrate Cryo Temperature Spike,1,82.1,0.038,21.0
+EXP_NEW_003,Stray Microwave Leakage,2,71.5,0.045,9.4
+EXP_NEW_004,Resonator Cross-Talk Disturbance,0,110.2,0.019,55.0
+EXP_NEW_005,Heavy Flux Drift Instability,1,64.0,0.052,3.2

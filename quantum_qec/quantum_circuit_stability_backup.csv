@@ -1,0 +1,1201 @@
+circuit_id,num_qubits,circuit_depth,cnot_count,t1_us,t2_us,single_qubit_err,cnot_err,readout_err,has_dynamic_decoupling,has_qec,injected_error_qubit,injected_error_name,unprotected_fidelity,protected_fidelity,observed_fidelity,stability_class
+QC_0001,3,80,27,105.52,82.96,0.00268,0.0049,0.0301,1,1,-1,Clean (No Bit-Flip),0.608,0.4897,0.4897,Unstable
+QC_0002,16,11,1,276.15,187.57,0.00025,0.0098,0.0233,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8764,0.9132,0.9132,Stable
+QC_0003,7,33,14,218.54,109.94,0.0001,0.0138,0.0307,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6869,0.6532,0.6869,Unstable
+QC_0004,5,15,4,259.36,190.77,0.0008,0.0022,0.0227,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.87,0.9077,0.87,Stable
+QC_0005,2,37,5,105.85,96.82,0.00044,0.0087,0.0165,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8993,0.9311,0.9311,Stable
+QC_0006,2,10,2,187.62,162.38,0.00014,0.004,0.0116,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9653,0.9646,0.9646,Stable
+QC_0007,1,115,28,173.97,151.59,0.00091,0.0037,0.0155,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7701,0.7911,0.7701,Marginal
+QC_0008,9,83,30,134.69,115.53,0.00014,0.0094,0.0284,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.5822,0.4296,0.5822,Unstable
+QC_0009,5,36,12,121.68,78.57,0.00018,0.0039,0.0177,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.815,0.8502,0.815,Marginal
+QC_0010,7,55,17,202.82,171.25,0.0001,0.0034,0.0226,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8216,0.8581,0.8581,Stable
+QC_0011,1,79,10,206.9,116.78,0.00031,0.0145,0.0194,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7876,0.8154,0.7876,Marginal
+QC_0012,16,62,9,238.5,189.84,0.00033,0.002,0.0197,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8491,0.8879,0.8491,Marginal
+QC_0013,7,91,12,157.35,124.1,0.00043,0.009,0.02,1,1,-1,Clean (No Bit-Flip),0.7603,0.7766,0.7766,Marginal
+QC_0014,2,30,9,173.63,88.81,0.00074,0.0023,0.0215,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8794,0.9158,0.9158,Stable
+QC_0015,2,102,41,117.79,100.66,0.00142,0.002,0.0123,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7237,0.7185,0.7237,Marginal
+QC_0016,2,50,12,249.34,226.01,0.0001,0.002,0.0161,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9184,0.9437,0.9184,Stable
+QC_0017,3,102,15,183.13,113.6,0.0001,0.0075,0.0202,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8057,0.8389,0.8389,Marginal
+QC_0018,5,33,9,212.52,183.95,0.0001,0.0099,0.0191,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8197,0.8558,0.8558,Stable
+QC_0019,3,8,3,214.11,114.99,0.0001,0.002,0.0148,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9402,0.9552,0.9552,Stable
+QC_0020,3,85,30,245.66,189.15,0.00064,0.002,0.0209,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.813,0.8479,0.8479,Marginal
+QC_0021,5,103,42,142.59,102.45,0.00078,0.0186,0.0126,1,0,-1,Clean (No Bit-Flip),0.3659,0.35,0.3659,Unstable
+QC_0022,2,17,3,211.39,157.63,0.00093,0.002,0.0094,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.951,0.9598,0.9598,Stable
+QC_0023,3,109,18,178.87,163.99,0.00017,0.018,0.0201,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6302,0.5389,0.6302,Unstable
+QC_0024,3,43,17,274.76,245.11,0.00022,0.0021,0.0096,0,0,-1,Clean (No Bit-Flip),0.9043,0.9346,0.9043,Stable
+QC_0025,3,19,6,142.45,121.55,0.0004,0.0108,0.02,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8674,0.9053,0.9053,Stable
+QC_0026,7,33,6,232.71,145.02,0.0001,0.003,0.005,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9461,0.9578,0.9578,Stable
+QC_0027,2,33,11,195.77,178.21,0.00057,0.0157,0.0129,0,0,-1,Clean (No Bit-Flip),0.784,0.8106,0.784,Marginal
+QC_0028,5,79,30,193.4,105.19,0.00247,0.0096,0.0157,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.54,0.35,0.54,Unstable
+QC_0029,5,36,11,182.43,161.27,0.00027,0.0041,0.0068,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8895,0.9238,0.8895,Stable
+QC_0030,1,6,2,240.6,155.83,0.00084,0.002,0.0154,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9734,0.9667,0.9734,Stable
+QC_0031,5,51,11,191.87,100.58,0.00042,0.0106,0.0263,0,1,-1,Clean (No Bit-Flip),0.7249,0.7205,0.7205,Marginal
+QC_0032,2,82,23,111.4,89.26,0.0001,0.0077,0.0091,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7761,0.7996,0.7761,Marginal
+QC_0033,1,88,24,234.88,141.88,0.00052,0.002,0.0156,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8333,0.8713,0.8713,Stable
+QC_0034,9,26,10,226.63,138.15,0.00021,0.002,0.0299,1,0,-1,Clean (No Bit-Flip),0.8267,0.8639,0.8267,Marginal
+QC_0035,16,79,31,206.42,131.64,0.0001,0.0132,0.0106,1,1,-1,Clean (No Bit-Flip),0.5971,0.4647,0.4647,Unstable
+QC_0036,7,31,12,129.22,68.31,0.0006,0.0024,0.0278,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8028,0.8353,0.8353,Marginal
+QC_0037,3,71,7,136.21,78.96,0.00118,0.0081,0.016,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7812,0.8067,0.8067,Marginal
+QC_0038,1,85,30,95.52,47.98,0.00025,0.0048,0.0187,1,0,-1,Clean (No Bit-Flip),0.7411,0.7471,0.7411,Marginal
+QC_0039,5,112,40,200.71,140.59,0.0003,0.0159,0.027,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.3962,0.35,0.3962,Unstable
+QC_0040,3,60,20,119.27,64.16,0.00133,0.0199,0.0146,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.5579,0.3701,0.5579,Unstable
+QC_0041,2,96,35,102.66,82.86,0.00101,0.04,0.0224,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.1926,0.35,0.35,Unstable
+QC_0042,3,97,38,237.37,143.86,0.00075,0.002,0.0242,1,1,-1,Clean (No Bit-Flip),0.7639,0.7819,0.7819,Marginal
+QC_0043,1,25,6,214.57,198.39,0.00017,0.0159,0.0134,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8868,0.9218,0.9218,Stable
+QC_0044,9,51,14,165.01,147.2,0.00145,0.0025,0.0127,0,1,-1,Clean (No Bit-Flip),0.8082,0.842,0.842,Marginal
+QC_0045,3,84,12,173.97,109.64,0.0001,0.0071,0.0164,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8426,0.8812,0.8426,Marginal
+QC_0046,5,105,24,71.67,61.09,0.00059,0.0056,0.0166,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6959,0.6698,0.6698,Unstable
+QC_0047,3,63,20,221.25,190.6,0.0001,0.002,0.0104,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9072,0.9366,0.9366,Stable
+QC_0048,5,88,32,148.83,140.49,0.00062,0.0216,0.0135,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.4222,0.35,0.4222,Unstable
+QC_0049,5,10,1,194.86,149.86,0.00019,0.002,0.005,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9695,0.9657,0.9695,Stable
+QC_0050,2,23,3,68.01,36.52,0.00036,0.0093,0.0157,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8917,0.9256,0.9256,Stable
+QC_0051,16,61,20,223.99,177.19,0.00025,0.0123,0.0243,1,0,-1,Clean (No Bit-Flip),0.6659,0.6126,0.6659,Unstable
+QC_0052,7,73,7,146.12,114.16,0.00011,0.0127,0.0063,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8624,0.9008,0.8624,Stable
+QC_0053,9,7,1,118.08,92.96,0.00058,0.002,0.0148,1,1,-1,Clean (No Bit-Flip),0.9203,0.9448,0.9448,Stable
+QC_0054,9,5,0,164.72,105.13,0.00128,0.0047,0.0351,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8297,0.8673,0.8673,Stable
+QC_0055,5,62,9,153.16,135.83,0.00192,0.0141,0.0178,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6886,0.6562,0.6886,Unstable
+QC_0056,9,42,6,228.34,212.76,0.00013,0.0029,0.0275,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8374,0.8757,0.8374,Marginal
+QC_0057,1,19,4,161.08,96.32,0.00076,0.005,0.0109,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.947,0.9582,0.9582,Stable
+QC_0058,2,38,9,241.32,130.23,0.00065,0.0025,0.0211,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9006,0.9321,0.9321,Stable
+QC_0059,1,65,26,194.86,114.49,0.00025,0.005,0.0097,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7835,0.8098,0.7835,Marginal
+QC_0060,3,39,10,220.25,191.45,0.0001,0.0175,0.0208,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7758,0.7991,0.7991,Marginal
+QC_0061,3,68,24,179.9,144.73,0.0007,0.0049,0.0239,1,1,-1,Clean (No Bit-Flip),0.7655,0.7843,0.7843,Marginal
+QC_0062,3,117,15,237.24,186.53,0.00175,0.0065,0.0222,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6767,0.6337,0.6337,Unstable
+QC_0063,7,29,5,128.09,87.2,0.0006,0.0041,0.0156,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8646,0.9028,0.8646,Stable
+QC_0064,3,28,9,185.11,140.69,0.00034,0.0049,0.0199,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8813,0.9173,0.8813,Stable
+QC_0065,3,16,1,162.16,103.55,0.00045,0.002,0.02,0,1,-1,Clean (No Bit-Flip),0.9249,0.9474,0.9474,Stable
+QC_0066,5,22,5,242.85,173.57,0.00013,0.0027,0.0227,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8721,0.9095,0.8721,Stable
+QC_0067,2,19,5,247.46,212.04,0.00083,0.0046,0.0171,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9198,0.9445,0.9445,Stable
+QC_0068,7,112,34,180.02,169.5,0.00082,0.008,0.0245,1,0,-1,Clean (No Bit-Flip),0.5894,0.4468,0.5894,Unstable
+QC_0069,1,84,9,121.88,112.09,0.0001,0.0048,0.028,1,0,-1,Clean (No Bit-Flip),0.9022,0.9332,0.9022,Stable
+QC_0070,16,31,6,199.22,183.33,0.00126,0.0033,0.0158,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8571,0.8957,0.8571,Stable
+QC_0071,7,76,24,105.09,71.57,0.00019,0.0039,0.0183,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7125,0.6993,0.7125,Marginal
+QC_0072,2,64,9,253.18,180.0,0.00242,0.0022,0.0117,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8098,0.844,0.844,Marginal
+QC_0073,1,50,17,158.71,129.75,0.00029,0.0207,0.0204,1,0,-1,Clean (No Bit-Flip),0.6609,0.6027,0.6609,Unstable
+QC_0074,7,93,33,178.62,163.44,0.00012,0.0059,0.0204,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7075,0.6906,0.6906,Unstable
+QC_0075,7,21,9,149.36,84.22,0.00026,0.002,0.0184,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8546,0.8933,0.8933,Stable
+QC_0076,7,97,16,139.42,88.8,0.00035,0.002,0.0189,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.776,0.7994,0.776,Marginal
+QC_0077,7,57,22,213.18,119.95,0.0001,0.0289,0.0315,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.414,0.35,0.35,Unstable
+QC_0078,1,12,3,172.86,134.04,0.00052,0.002,0.005,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9733,0.9667,0.9733,Stable
+QC_0079,3,83,19,181.91,116.03,0.00055,0.0131,0.0145,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6883,0.6557,0.6557,Unstable
+QC_0080,2,31,4,134.82,87.2,0.00081,0.002,0.0156,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9134,0.9406,0.9406,Stable
+QC_0081,9,50,17,218.52,116.23,0.0001,0.0203,0.0282,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.5735,0.4086,0.5735,Unstable
+QC_0082,5,54,9,223.1,146.67,0.00047,0.0166,0.0213,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7298,0.7287,0.7298,Marginal
+QC_0083,3,75,17,170.6,151.51,0.0001,0.0068,0.0215,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7873,0.815,0.815,Marginal
+QC_0084,1,7,0,237.06,143.39,0.00072,0.002,0.0268,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9675,0.9652,0.9652,Stable
+QC_0085,3,97,36,175.31,142.5,0.0001,0.0024,0.0167,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8256,0.8627,0.8256,Marginal
+QC_0086,3,68,25,215.09,168.49,0.00146,0.0042,0.0226,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7183,0.7093,0.7093,Marginal
+QC_0087,7,48,17,106.97,95.05,0.00073,0.0049,0.0143,0,0,-1,Clean (No Bit-Flip),0.7694,0.79,0.7694,Marginal
+QC_0088,5,57,11,195.9,109.61,0.00042,0.0028,0.0106,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8546,0.8934,0.8934,Stable
+QC_0089,9,28,4,167.78,157.7,0.00035,0.002,0.0306,1,0,-1,Clean (No Bit-Flip),0.8359,0.8741,0.8359,Marginal
+QC_0090,3,64,20,187.0,142.53,0.0001,0.0071,0.0206,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.788,0.8159,0.8159,Marginal
+QC_0091,2,7,1,184.98,175.35,0.00021,0.0059,0.0225,0,0,-1,Clean (No Bit-Flip),0.9455,0.9575,0.9455,Stable
+QC_0092,7,24,3,185.66,168.98,0.00122,0.0027,0.0104,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9099,0.9384,0.9384,Stable
+QC_0093,7,50,17,207.71,124.56,0.00141,0.002,0.0216,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7878,0.8156,0.8156,Marginal
+QC_0094,5,19,8,154.57,81.19,0.0001,0.04,0.0304,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6064,0.486,0.486,Unstable
+QC_0095,7,29,10,205.61,126.46,0.00054,0.0053,0.0161,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8489,0.8877,0.8877,Stable
+QC_0096,3,98,35,235.46,173.63,0.00076,0.0113,0.0092,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.5599,0.3751,0.3751,Unstable
+QC_0097,5,82,35,116.54,67.27,0.00058,0.0048,0.0193,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.599,0.469,0.469,Unstable
+QC_0098,3,75,12,144.88,83.36,0.0001,0.002,0.0107,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8706,0.9082,0.9082,Stable
+QC_0099,1,21,6,146.77,103.93,0.00015,0.003,0.0071,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9616,0.9635,0.9635,Stable
+QC_0100,2,112,49,130.86,67.39,0.00017,0.0031,0.0129,1,1,-1,Clean (No Bit-Flip),0.7245,0.7198,0.7198,Marginal
+QC_0101,1,88,13,158.64,88.02,0.00107,0.0146,0.0146,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7148,0.7033,0.7033,Marginal
+QC_0102,5,104,35,226.49,155.63,0.00037,0.0085,0.0111,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6163,0.5083,0.6163,Unstable
+QC_0103,3,13,3,245.14,129.53,0.0004,0.0026,0.0273,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8991,0.931,0.931,Stable
+QC_0104,5,42,12,184.78,125.38,0.00164,0.0275,0.0312,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.5476,0.35,0.5476,Unstable
+QC_0105,9,52,17,165.41,117.99,0.00061,0.0031,0.0223,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7741,0.7968,0.7968,Marginal
+QC_0106,2,64,27,216.13,151.96,0.00137,0.04,0.0207,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.2828,0.35,0.35,Unstable
+QC_0107,3,67,25,73.62,65.61,0.00037,0.04,0.017,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.2875,0.35,0.35,Unstable
+QC_0108,7,90,10,132.52,97.87,0.0001,0.002,0.0117,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.86,0.8985,0.86,Stable
+QC_0109,2,6,2,75.53,53.67,0.0016,0.003,0.0292,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9215,0.9455,0.9215,Stable
+QC_0110,1,92,16,132.04,90.43,0.00037,0.0053,0.0176,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7979,0.829,0.829,Marginal
+QC_0111,3,76,17,145.48,126.27,0.00012,0.0087,0.0148,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7678,0.7877,0.7678,Marginal
+QC_0112,2,15,3,246.5,222.53,0.00022,0.006,0.0251,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9244,0.9472,0.9472,Stable
+QC_0113,9,68,18,55.75,49.28,0.0001,0.0279,0.0175,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.5086,0.35,0.35,Unstable
+QC_0114,7,81,20,161.25,129.5,0.00038,0.0103,0.0248,1,1,-1,Clean (No Bit-Flip),0.674,0.6285,0.6285,Unstable
+QC_0115,5,85,36,207.88,116.79,0.00115,0.002,0.0151,0,0,-1,Clean (No Bit-Flip),0.6948,0.6677,0.6948,Unstable
+QC_0116,9,76,26,198.48,123.97,0.00163,0.002,0.0251,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7108,0.6964,0.6964,Unstable
+QC_0117,7,25,8,245.78,127.98,0.00162,0.0093,0.0249,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7657,0.7847,0.7657,Marginal
+QC_0118,2,22,2,187.25,172.06,0.0001,0.002,0.0273,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9369,0.9537,0.9537,Stable
+QC_0119,9,98,40,196.84,156.95,0.00029,0.0124,0.013,1,0,-1,Clean (No Bit-Flip),0.5286,0.35,0.5286,Unstable
+QC_0120,5,68,28,97.27,81.3,0.0001,0.003,0.0174,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7878,0.8157,0.8157,Marginal
+QC_0121,7,86,32,135.53,86.77,0.00116,0.0032,0.0316,1,0,-1,Clean (No Bit-Flip),0.6518,0.5842,0.6518,Unstable
+QC_0122,9,114,11,99.78,87.86,0.00027,0.002,0.0163,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8418,0.8804,0.8804,Stable
+QC_0123,3,115,13,205.77,126.92,0.0006,0.0097,0.0237,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7443,0.7522,0.7443,Marginal
+QC_0124,2,99,17,195.69,97.99,0.00075,0.002,0.034,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8045,0.8373,0.8373,Marginal
+QC_0125,2,42,6,194.11,129.93,0.00034,0.0119,0.0051,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8982,0.9304,0.9304,Stable
+QC_0126,3,36,8,140.34,106.21,0.00022,0.0054,0.016,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8743,0.9114,0.8743,Stable
+QC_0127,7,15,6,136.22,97.45,0.00197,0.0123,0.018,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8039,0.8366,0.8366,Marginal
+QC_0128,9,49,12,189.43,168.2,0.002,0.007,0.0054,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7855,0.8126,0.8126,Marginal
+QC_0129,1,93,9,149.88,82.05,0.00021,0.002,0.0148,0,0,-1,Clean (No Bit-Flip),0.8829,0.9186,0.8829,Stable
+QC_0130,5,37,7,134.08,100.46,0.00039,0.0116,0.0112,1,0,-1,Clean (No Bit-Flip),0.8454,0.8841,0.8454,Marginal
+QC_0131,3,106,12,157.12,114.83,0.00216,0.002,0.024,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7009,0.6787,0.7009,Marginal
+QC_0132,2,45,5,150.27,94.16,0.0001,0.0052,0.0059,1,0,-1,Clean (No Bit-Flip),0.9444,0.957,0.9444,Stable
+QC_0133,2,12,2,141.0,122.67,0.00032,0.002,0.0312,0,0,-1,Clean (No Bit-Flip),0.9235,0.9466,0.9235,Stable
+QC_0134,3,15,2,124.84,104.71,0.0001,0.0112,0.0228,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9012,0.9325,0.9012,Stable
+QC_0135,9,90,33,200.19,166.12,0.00043,0.0194,0.0106,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.4611,0.35,0.35,Unstable
+QC_0136,3,55,24,250.02,223.59,0.0001,0.0065,0.0252,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.757,0.7717,0.7717,Marginal
+QC_0137,5,92,21,178.24,147.1,0.00031,0.006,0.0222,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7176,0.7081,0.7176,Marginal
+QC_0138,7,45,11,190.01,114.83,0.00015,0.0116,0.0177,1,1,-1,Clean (No Bit-Flip),0.7841,0.8106,0.8106,Marginal
+QC_0139,3,21,8,204.14,166.88,0.00046,0.002,0.0129,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9294,0.9498,0.9498,Stable
+QC_0140,16,80,15,196.5,125.46,0.00331,0.02,0.0218,0,0,-1,Clean (No Bit-Flip),0.4787,0.35,0.4787,Unstable
+QC_0141,16,50,7,141.89,86.41,0.00097,0.002,0.0189,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8371,0.8753,0.8371,Marginal
+QC_0142,3,36,14,257.39,137.15,0.00112,0.0331,0.0132,1,1,-1,Clean (No Bit-Flip),0.5655,0.3889,0.3889,Unstable
+QC_0143,3,83,9,145.92,121.82,0.00061,0.0107,0.0086,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.824,0.8609,0.8609,Stable
+QC_0144,3,84,26,209.16,171.5,0.0001,0.0119,0.012,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6807,0.6414,0.6807,Unstable
+QC_0145,3,58,17,203.86,123.44,0.00014,0.0085,0.0145,0,1,-1,Clean (No Bit-Flip),0.7746,0.7975,0.7975,Marginal
+QC_0146,1,90,19,91.87,76.92,0.00155,0.0051,0.0261,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.729,0.7274,0.7274,Marginal
+QC_0147,5,96,20,163.85,149.6,0.00027,0.0068,0.024,0,0,-1,Clean (No Bit-Flip),0.7071,0.6899,0.7071,Marginal
+QC_0148,5,24,8,182.55,100.15,0.0001,0.002,0.0148,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.882,0.9179,0.9179,Stable
+QC_0149,1,37,4,185.99,112.47,0.00073,0.0078,0.0151,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9197,0.9445,0.9445,Stable
+QC_0150,3,78,14,193.56,162.13,0.00021,0.0079,0.0249,1,1,-1,Clean (No Bit-Flip),0.8005,0.8324,0.8324,Marginal
+QC_0151,9,44,15,214.09,133.49,0.00019,0.0177,0.0199,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6718,0.6243,0.6243,Unstable
+QC_0152,2,36,10,179.66,140.33,0.00372,0.0056,0.0198,1,0,-1,Clean (No Bit-Flip),0.7831,0.8093,0.7831,Marginal
+QC_0153,2,118,17,195.96,105.14,0.00117,0.002,0.0131,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7877,0.8156,0.8156,Marginal
+QC_0154,3,101,41,177.98,125.21,0.00031,0.0029,0.0171,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7701,0.7911,0.7701,Marginal
+QC_0155,16,6,1,134.22,111.75,0.00236,0.0085,0.018,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8907,0.9248,0.8907,Stable
+QC_0156,2,101,39,181.46,146.79,0.00063,0.0022,0.0174,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7498,0.7608,0.7498,Marginal
+QC_0157,5,37,13,213.71,185.24,0.00081,0.0026,0.0231,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.811,0.8455,0.811,Marginal
+QC_0158,7,109,34,229.9,205.72,0.0001,0.0137,0.0234,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.513,0.35,0.513,Unstable
+QC_0159,2,81,22,204.18,173.13,0.0001,0.007,0.0116,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7859,0.8131,0.7859,Marginal
+QC_0160,7,34,15,240.05,192.57,0.0006,0.0057,0.0145,1,0,-1,Clean (No Bit-Flip),0.825,0.8619,0.825,Marginal
+QC_0161,3,37,5,198.85,102.26,0.00138,0.0031,0.0132,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8882,0.9229,0.9229,Stable
+QC_0162,5,81,28,218.87,162.13,0.00059,0.0105,0.0277,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.5974,0.4654,0.5974,Unstable
+QC_0163,5,30,5,222.18,114.86,0.0001,0.0027,0.0338,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.82,0.8562,0.8562,Stable
+QC_0164,5,26,5,169.95,146.77,0.0001,0.0107,0.0148,1,0,-1,Clean (No Bit-Flip),0.871,0.9086,0.871,Stable
+QC_0165,1,107,22,212.67,137.03,0.00112,0.002,0.0168,0,0,-1,Clean (No Bit-Flip),0.7742,0.7969,0.7742,Marginal
+QC_0166,7,70,30,137.67,103.68,0.0001,0.016,0.0239,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.4858,0.35,0.4858,Unstable
+QC_0167,3,42,18,195.74,122.49,0.00044,0.0055,0.013,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8074,0.841,0.8074,Marginal
+QC_0168,2,107,17,205.97,175.51,0.0001,0.0046,0.0241,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8513,0.8901,0.8901,Stable
+QC_0169,1,94,10,227.3,204.33,0.0001,0.0076,0.0179,0,0,-1,Clean (No Bit-Flip),0.8746,0.9117,0.8746,Stable
+QC_0170,5,50,17,216.93,147.38,0.00067,0.0078,0.0058,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8047,0.8376,0.8376,Marginal
+QC_0171,5,118,29,227.89,202.43,0.0007,0.002,0.0089,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8071,0.8406,0.8406,Marginal
+QC_0172,1,19,2,175.53,108.86,0.00025,0.0113,0.0156,0,0,-1,Clean (No Bit-Flip),0.9466,0.958,0.9466,Stable
+QC_0173,5,102,34,164.46,121.8,0.00015,0.0026,0.0266,0,1,-1,Clean (No Bit-Flip),0.7044,0.685,0.685,Unstable
+QC_0174,2,110,31,167.63,148.59,0.00101,0.0188,0.0118,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.4658,0.35,0.4658,Unstable
+QC_0175,5,48,21,191.98,124.15,0.00015,0.0136,0.0143,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6497,0.58,0.58,Unstable
+QC_0176,2,53,9,98.61,91.64,0.00047,0.0034,0.0195,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8892,0.9236,0.9236,Stable
+QC_0177,5,108,26,239.93,133.12,0.00207,0.0132,0.0063,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.5272,0.35,0.5272,Unstable
+QC_0178,3,79,22,181.97,92.48,0.0001,0.0035,0.0201,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8249,0.8618,0.8249,Marginal
+QC_0179,9,65,24,161.32,146.3,0.0017,0.002,0.0072,1,0,-1,Clean (No Bit-Flip),0.7993,0.8308,0.7993,Marginal
+QC_0180,2,71,20,66.16,35.13,0.00012,0.0261,0.022,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.5003,0.35,0.5003,Unstable
+QC_0181,3,10,3,178.34,168.78,0.0005,0.0085,0.0123,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9313,0.9509,0.9509,Stable
+QC_0182,2,13,2,171.07,158.77,0.00028,0.0049,0.0114,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9579,0.9622,0.9579,Stable
+QC_0183,9,10,3,139.63,78.43,0.00201,0.0041,0.0199,1,0,-1,Clean (No Bit-Flip),0.8693,0.907,0.8693,Stable
+QC_0184,9,77,19,149.71,111.07,0.00019,0.0031,0.0236,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7639,0.782,0.782,Marginal
+QC_0185,3,107,15,178.8,104.28,0.00031,0.0319,0.0206,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.5165,0.35,0.35,Unstable
+QC_0186,5,99,32,153.53,106.35,0.00244,0.002,0.0195,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.5904,0.449,0.5904,Unstable
+QC_0187,7,36,6,205.73,108.55,0.00046,0.003,0.0196,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8639,0.9021,0.9021,Stable
+QC_0188,5,45,6,146.3,87.89,0.00042,0.0053,0.0207,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8239,0.8607,0.8607,Stable
+QC_0189,5,118,47,186.96,124.04,0.00018,0.0052,0.0211,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.5945,0.4588,0.4588,Unstable
+QC_0190,2,80,20,233.1,162.56,0.00073,0.0051,0.0152,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8061,0.8393,0.8393,Marginal
+QC_0191,1,12,4,178.35,167.63,0.0001,0.002,0.0226,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9642,0.9643,0.9643,Stable
+QC_0192,9,76,15,196.02,169.27,0.0001,0.002,0.0124,1,0,-1,Clean (No Bit-Flip),0.8875,0.9223,0.8875,Stable
+QC_0193,9,54,20,193.17,160.68,0.00055,0.0024,0.0256,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7954,0.8257,0.8257,Marginal
+QC_0194,5,96,13,180.36,133.77,0.00025,0.0197,0.0235,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6532,0.5871,0.5871,Unstable
+QC_0195,3,66,14,176.98,155.39,0.00184,0.002,0.0333,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7634,0.7812,0.7812,Marginal
+QC_0196,3,88,38,154.29,100.7,0.0014,0.0113,0.0216,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.465,0.35,0.465,Unstable
+QC_0197,7,66,24,186.8,152.99,0.00075,0.0113,0.0244,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.622,0.5211,0.622,Unstable
+QC_0198,9,115,31,167.25,158.42,0.00102,0.0133,0.0071,1,1,-1,Clean (No Bit-Flip),0.5457,0.35,0.35,Unstable
+QC_0199,9,11,2,249.57,160.12,0.00066,0.0174,0.0246,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8411,0.8796,0.8411,Marginal
+QC_0200,7,79,32,216.5,173.92,0.0001,0.0024,0.0262,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7777,0.8019,0.7777,Marginal
+QC_0201,5,88,25,114.62,100.86,0.00087,0.002,0.0285,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6858,0.651,0.6858,Unstable
+QC_0202,1,84,30,117.13,106.83,0.00014,0.005,0.0188,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7926,0.8221,0.8221,Marginal
+QC_0203,2,8,2,174.13,143.32,0.00023,0.0025,0.0156,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9566,0.9618,0.9566,Stable
+QC_0204,9,10,1,162.21,101.81,0.00103,0.0106,0.0104,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9268,0.9485,0.9268,Stable
+QC_0205,5,62,8,171.76,111.1,0.00046,0.0081,0.011,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8457,0.8844,0.8844,Stable
+QC_0206,1,26,8,209.3,106.61,0.00118,0.0166,0.0178,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8212,0.8576,0.8212,Marginal
+QC_0207,2,30,4,194.21,163.6,0.00014,0.002,0.0057,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9704,0.966,0.966,Stable
+QC_0208,5,7,1,193.75,100.6,0.00056,0.0197,0.0126,0,1,-1,Clean (No Bit-Flip),0.9114,0.9393,0.9393,Stable
+QC_0209,1,45,19,245.08,217.9,0.0001,0.0028,0.0186,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8962,0.9289,0.9289,Stable
+QC_0210,2,64,18,117.5,65.02,0.00062,0.0054,0.0185,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7469,0.7563,0.7563,Marginal
+QC_0211,5,110,39,184.68,106.62,0.00086,0.0046,0.0112,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6716,0.6238,0.6238,Unstable
+QC_0212,5,18,5,153.94,109.98,0.00053,0.0114,0.0094,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8844,0.9199,0.8844,Stable
+QC_0213,5,79,23,244.59,203.51,0.00019,0.0044,0.0104,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8065,0.8399,0.8065,Marginal
+QC_0214,2,86,11,80.58,45.33,0.0001,0.023,0.0165,0,1,-1,Clean (No Bit-Flip),0.646,0.5724,0.5724,Unstable
+QC_0215,7,16,3,82.55,57.62,0.0001,0.0186,0.0329,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7891,0.8175,0.7891,Marginal
+QC_0216,2,91,18,193.71,138.94,0.00058,0.0165,0.0254,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.628,0.5342,0.5342,Unstable
+QC_0217,3,16,3,230.68,137.38,0.00163,0.002,0.0195,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9084,0.9374,0.9374,Stable
+QC_0218,7,17,6,214.8,118.57,0.00014,0.0154,0.0219,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7975,0.8284,0.7975,Marginal
+QC_0219,5,29,6,143.96,126.16,0.0008,0.0122,0.0251,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7914,0.8205,0.8205,Marginal
+QC_0220,7,49,12,247.79,179.92,0.00121,0.002,0.0227,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7963,0.827,0.7963,Marginal
+QC_0221,5,119,28,124.58,63.1,0.00044,0.002,0.0158,1,1,-1,Clean (No Bit-Flip),0.7566,0.7711,0.7711,Marginal
+QC_0222,5,23,3,238.84,205.72,0.00066,0.002,0.0121,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9178,0.9433,0.9178,Stable
+QC_0223,1,59,15,130.53,122.88,0.00101,0.002,0.0171,0,1,-1,Clean (No Bit-Flip),0.8517,0.8905,0.8905,Stable
+QC_0224,3,114,19,164.17,126.85,0.00018,0.0064,0.025,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7767,0.8004,0.8004,Marginal
+QC_0225,3,104,17,208.77,151.7,0.00021,0.029,0.0161,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.5502,0.3506,0.3506,Unstable
+QC_0226,2,49,6,114.02,102.08,0.0001,0.0046,0.0103,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9333,0.9519,0.9519,Stable
+QC_0227,16,12,2,246.11,228.54,0.00198,0.0062,0.0059,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9342,0.9523,0.9523,Stable
+QC_0228,3,97,35,163.89,137.59,0.0015,0.0275,0.0172,0,0,-1,Clean (No Bit-Flip),0.2794,0.35,0.2794,Unstable
+QC_0229,9,57,11,186.18,130.41,0.00087,0.0024,0.0108,1,1,-1,Clean (No Bit-Flip),0.8622,0.9005,0.9005,Stable
+QC_0230,5,59,12,232.3,178.06,0.0001,0.0156,0.0149,1,1,-1,Clean (No Bit-Flip),0.7521,0.7643,0.7643,Marginal
+QC_0231,7,36,11,144.31,117.67,0.00036,0.0063,0.0282,1,1,-1,Clean (No Bit-Flip),0.7841,0.8107,0.8107,Marginal
+QC_0232,5,55,9,227.74,133.78,0.0001,0.0067,0.0176,1,1,-1,Clean (No Bit-Flip),0.8428,0.8814,0.8814,Stable
+QC_0233,5,48,19,253.82,177.99,0.0001,0.0034,0.0127,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.84,0.8784,0.84,Marginal
+QC_0234,3,86,24,150.5,131.45,0.00057,0.0066,0.0202,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7374,0.741,0.7374,Marginal
+QC_0235,2,74,18,241.62,192.0,0.00194,0.002,0.0314,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7689,0.7892,0.7689,Marginal
+QC_0236,7,22,6,100.77,69.03,0.0014,0.0116,0.0172,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.799,0.8304,0.8304,Marginal
+QC_0237,3,87,13,197.53,157.73,0.00072,0.0027,0.005,1,0,-1,Clean (No Bit-Flip),0.8761,0.913,0.8761,Stable
+QC_0238,1,26,8,124.71,68.99,0.0001,0.0175,0.0226,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8283,0.8657,0.8657,Stable
+QC_0239,5,41,9,222.42,151.39,0.00019,0.0037,0.0204,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8424,0.881,0.8424,Marginal
+QC_0240,2,100,41,218.72,187.42,0.00023,0.002,0.0186,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7968,0.8276,0.7968,Marginal
+QC_0241,9,60,9,273.48,163.88,0.00086,0.0095,0.0165,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7911,0.8201,0.7911,Marginal
+QC_0242,16,109,30,243.96,142.39,0.00097,0.002,0.0123,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7274,0.7248,0.7274,Marginal
+QC_0243,9,63,19,172.54,160.09,0.00029,0.0112,0.0286,0,1,-1,Clean (No Bit-Flip),0.6524,0.5855,0.5855,Unstable
+QC_0244,3,7,0,131.32,78.06,0.00032,0.0276,0.0051,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9794,0.9679,0.9794,Stable
+QC_0245,1,32,7,205.46,126.85,0.0001,0.0121,0.0158,0,0,-1,Clean (No Bit-Flip),0.8783,0.9148,0.8783,Stable
+QC_0246,9,78,27,177.27,165.98,0.0002,0.002,0.0157,1,0,-1,Clean (No Bit-Flip),0.8364,0.8746,0.8364,Marginal
+QC_0247,3,119,46,249.8,207.49,0.00036,0.0073,0.024,1,1,-1,Clean (No Bit-Flip),0.6106,0.4955,0.4955,Unstable
+QC_0248,16,39,8,82.51,67.23,0.0001,0.0095,0.0266,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.786,0.8132,0.8132,Marginal
+QC_0249,16,65,24,278.46,246.11,0.00036,0.014,0.0164,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6305,0.5394,0.6305,Unstable
+QC_0250,9,97,42,203.94,112.6,0.00115,0.002,0.0194,1,1,-1,Clean (No Bit-Flip),0.699,0.6754,0.6754,Unstable
+QC_0251,3,58,23,143.41,117.27,0.00052,0.0052,0.0199,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7501,0.7611,0.7501,Marginal
+QC_0252,3,67,9,213.03,154.8,0.0001,0.0061,0.0254,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8573,0.8959,0.8573,Stable
+QC_0253,9,83,29,238.38,208.14,0.00013,0.002,0.0252,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7771,0.801,0.801,Marginal
+QC_0254,3,101,21,185.15,134.91,0.00039,0.0031,0.0142,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8022,0.8345,0.8022,Marginal
+QC_0255,2,11,4,100.58,78.36,0.00027,0.0046,0.0211,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9293,0.9498,0.9498,Stable
+QC_0256,5,80,21,166.78,119.24,0.00027,0.0143,0.0207,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.629,0.5363,0.629,Unstable
+QC_0257,9,53,7,226.77,162.18,0.00045,0.0212,0.0172,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.762,0.7792,0.7792,Marginal
+QC_0258,5,98,34,202.35,171.1,0.00053,0.0079,0.0206,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6298,0.5379,0.6298,Unstable
+QC_0259,5,89,18,172.96,135.4,0.00096,0.004,0.0181,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7575,0.7724,0.7724,Marginal
+QC_0260,1,35,15,238.87,187.51,0.00025,0.0023,0.0191,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9258,0.9479,0.9479,Stable
+QC_0261,5,62,27,213.27,149.85,0.00098,0.0322,0.0085,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.3611,0.35,0.3611,Unstable
+QC_0262,16,65,21,216.74,160.17,0.00025,0.0326,0.0116,0,1,-1,Clean (No Bit-Flip),0.4387,0.35,0.35,Unstable
+QC_0263,2,28,4,161.52,134.96,0.0001,0.0207,0.0237,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8601,0.8986,0.8601,Stable
+QC_0264,5,24,8,157.17,137.0,0.00048,0.0123,0.0095,1,1,-1,Clean (No Bit-Flip),0.8441,0.8828,0.8828,Stable
+QC_0265,9,41,5,103.5,84.19,0.00053,0.0032,0.0213,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8512,0.89,0.8512,Stable
+QC_0266,7,8,0,168.33,154.16,0.00164,0.0136,0.0174,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9023,0.9332,0.9023,Stable
+QC_0267,5,96,37,222.09,193.03,0.00078,0.0042,0.0252,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6485,0.5774,0.5774,Unstable
+QC_0268,7,112,19,170.82,128.6,0.0015,0.0032,0.0225,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.659,0.5988,0.659,Unstable
+QC_0269,3,24,5,200.05,160.47,0.00143,0.0109,0.0148,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8686,0.9065,0.9065,Stable
+QC_0270,3,64,28,230.0,210.88,0.00056,0.002,0.0164,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8484,0.8872,0.8484,Marginal
+QC_0271,7,28,6,196.78,153.22,0.00045,0.002,0.005,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9437,0.9568,0.9437,Stable
+QC_0272,7,54,11,201.17,175.25,0.00049,0.0048,0.0171,1,1,-1,Clean (No Bit-Flip),0.8366,0.8748,0.8748,Stable
+QC_0273,9,53,22,118.9,96.3,0.0023,0.0047,0.0091,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7322,0.7326,0.7326,Marginal
+QC_0274,9,55,7,165.48,123.84,0.00089,0.0181,0.0165,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.76,0.7761,0.76,Marginal
+QC_0275,5,100,36,257.7,156.89,0.0001,0.002,0.0135,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7856,0.8127,0.7856,Marginal
+QC_0276,5,109,48,184.67,127.74,0.0009,0.002,0.0119,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6724,0.6253,0.6724,Unstable
+QC_0277,7,40,16,265.35,248.23,0.00011,0.002,0.0263,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8343,0.8723,0.8343,Marginal
+QC_0278,5,102,33,147.46,117.38,0.00036,0.002,0.0091,0,0,-1,Clean (No Bit-Flip),0.769,0.7894,0.769,Marginal
+QC_0279,7,104,21,190.53,143.65,0.00014,0.002,0.0113,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8651,0.9033,0.8651,Stable
+QC_0280,7,70,13,162.78,149.73,0.0007,0.0086,0.0131,1,1,-1,Clean (No Bit-Flip),0.7811,0.8065,0.8065,Marginal
+QC_0281,9,83,32,206.64,157.86,0.00126,0.0045,0.0146,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6687,0.6182,0.6182,Unstable
+QC_0282,3,38,15,220.28,162.29,0.00021,0.0115,0.0119,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7913,0.8204,0.7913,Marginal
+QC_0283,3,40,11,207.11,174.32,0.0001,0.0392,0.0155,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6044,0.4815,0.6044,Unstable
+QC_0284,1,10,1,226.88,186.2,0.00021,0.0086,0.0201,0,0,-1,Clean (No Bit-Flip),0.966,0.9648,0.966,Stable
+QC_0285,5,43,5,179.41,105.3,0.00067,0.002,0.0227,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8466,0.8853,0.8853,Stable
+QC_0286,1,46,6,171.43,122.07,0.00024,0.002,0.0223,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9434,0.9566,0.9566,Stable
+QC_0287,3,119,41,100.88,71.89,0.0002,0.017,0.005,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.3785,0.35,0.35,Unstable
+QC_0288,5,119,29,208.73,139.89,0.00012,0.006,0.0207,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6802,0.6404,0.6404,Unstable
+QC_0289,3,62,25,187.75,137.58,0.00041,0.0139,0.0211,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6235,0.5243,0.5243,Unstable
+QC_0290,5,16,5,176.94,121.37,0.00019,0.0155,0.0134,1,0,-1,Clean (No Bit-Flip),0.8552,0.8939,0.8552,Stable
+QC_0291,1,7,1,171.41,101.08,0.00079,0.021,0.0297,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9424,0.9562,0.9424,Stable
+QC_0292,1,113,35,178.34,122.26,0.0001,0.0239,0.0256,1,1,-1,Clean (No Bit-Flip),0.391,0.35,0.35,Unstable
+QC_0293,7,22,5,169.37,90.19,0.00065,0.0065,0.0167,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8671,0.9051,0.8671,Stable
+QC_0294,3,44,13,156.24,118.6,0.00016,0.0033,0.0138,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8709,0.9084,0.9084,Stable
+QC_0295,2,25,8,190.78,168.68,0.0004,0.0261,0.0296,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7477,0.7574,0.7574,Marginal
+QC_0296,5,19,7,201.79,166.75,0.0002,0.0063,0.0179,0,1,-1,Clean (No Bit-Flip),0.8563,0.895,0.895,Stable
+QC_0297,7,101,39,145.32,96.23,0.00077,0.002,0.0186,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.665,0.6108,0.665,Unstable
+QC_0298,2,103,19,161.97,87.33,0.00174,0.0082,0.0185,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6553,0.5914,0.5914,Unstable
+QC_0299,5,30,3,170.79,100.93,0.00149,0.0071,0.0341,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7799,0.8049,0.8049,Marginal
+QC_0300,1,12,4,180.22,134.35,0.00053,0.0181,0.0165,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8976,0.9299,0.9299,Stable
+QC_0301,1,104,14,174.23,103.35,0.00037,0.0085,0.0178,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8103,0.8446,0.8446,Marginal
+QC_0302,5,116,24,209.69,156.17,0.00102,0.0034,0.0122,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7442,0.752,0.752,Marginal
+QC_0303,5,98,9,105.64,63.83,0.00069,0.0271,0.0153,1,0,-1,Clean (No Bit-Flip),0.6469,0.5742,0.6469,Unstable
+QC_0304,5,91,30,113.62,100.22,0.00012,0.0129,0.0108,0,0,-1,Clean (No Bit-Flip),0.5612,0.3784,0.5612,Unstable
+QC_0305,7,46,7,188.71,128.09,0.00103,0.008,0.0123,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8364,0.8746,0.8364,Marginal
+QC_0306,16,48,15,152.88,93.33,0.00034,0.0028,0.0053,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8601,0.8986,0.8601,Stable
+QC_0307,5,18,8,219.79,190.24,0.00013,0.0037,0.0242,0,1,-1,Clean (No Bit-Flip),0.8432,0.8819,0.8819,Stable
+QC_0308,3,82,10,232.64,152.21,0.0002,0.0089,0.0191,1,1,-1,Clean (No Bit-Flip),0.8346,0.8727,0.8727,Stable
+QC_0309,7,6,0,190.52,104.82,0.00019,0.002,0.0197,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9036,0.9341,0.9036,Stable
+QC_0310,3,41,8,131.76,99.7,0.00044,0.0024,0.0176,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8977,0.93,0.8977,Stable
+QC_0311,3,73,29,227.46,173.25,0.00016,0.01,0.0185,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6777,0.6356,0.6777,Unstable
+QC_0312,1,42,7,188.95,155.24,0.0001,0.0052,0.0293,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9106,0.9388,0.9388,Stable
+QC_0313,1,113,25,113.09,68.77,0.0001,0.0041,0.0126,1,0,-1,Clean (No Bit-Flip),0.8164,0.8519,0.8164,Marginal
+QC_0314,16,45,5,117.07,81.91,0.00053,0.002,0.0199,0,0,-1,Clean (No Bit-Flip),0.842,0.8806,0.842,Marginal
+QC_0315,7,66,24,248.26,155.68,0.0008,0.0047,0.0199,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7459,0.7547,0.7459,Marginal
+QC_0316,5,64,15,240.8,129.17,0.00023,0.0118,0.026,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6862,0.6518,0.6862,Unstable
+QC_0317,3,115,42,66.73,59.69,0.0001,0.0025,0.0211,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.737,0.7405,0.7405,Marginal
+QC_0318,2,18,7,118.9,98.45,0.0001,0.002,0.0214,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9308,0.9506,0.9308,Stable
+QC_0319,2,107,19,231.34,147.05,0.00148,0.0088,0.0092,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6877,0.6546,0.6877,Unstable
+QC_0320,3,93,35,179.17,137.91,0.00041,0.0288,0.0123,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.3189,0.35,0.3189,Unstable
+QC_0321,5,88,10,211.58,124.95,0.00036,0.0075,0.0098,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8366,0.8749,0.8749,Stable
+QC_0322,7,6,2,177.21,159.6,0.0001,0.002,0.005,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9659,0.9647,0.9647,Stable
+QC_0323,5,107,35,209.45,115.56,0.00078,0.0031,0.0208,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6567,0.5943,0.6567,Unstable
+QC_0324,3,74,30,180.26,90.44,0.00045,0.0162,0.0162,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.5327,0.35,0.5327,Unstable
+QC_0325,16,21,2,160.31,116.37,0.00014,0.0021,0.0208,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8837,0.9193,0.9193,Stable
+QC_0326,7,93,14,227.64,173.56,0.0001,0.0075,0.0182,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7976,0.8287,0.7976,Marginal
+QC_0327,5,32,7,189.09,143.81,0.00029,0.0041,0.0197,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8522,0.8909,0.8909,Stable
+QC_0328,5,70,16,209.36,109.81,0.00109,0.002,0.0274,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7312,0.731,0.7312,Marginal
+QC_0329,3,39,6,187.09,119.98,0.0012,0.0134,0.0181,1,0,-1,Clean (No Bit-Flip),0.8231,0.8598,0.8231,Marginal
+QC_0330,2,105,24,158.11,114.58,0.00055,0.0109,0.0227,1,1,-1,Clean (No Bit-Flip),0.6641,0.609,0.609,Unstable
+QC_0331,3,9,1,252.38,150.79,0.00078,0.0087,0.0159,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9365,0.9534,0.9534,Stable
+QC_0332,7,69,16,195.97,174.94,0.0001,0.0022,0.0238,1,1,-1,Clean (No Bit-Flip),0.8349,0.873,0.873,Stable
+QC_0333,1,44,16,164.02,88.44,0.00053,0.002,0.0093,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9072,0.9366,0.9072,Stable
+QC_0334,2,80,21,237.52,170.86,0.00066,0.0069,0.0051,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7702,0.7912,0.7912,Marginal
+QC_0335,1,60,6,120.56,97.79,0.00013,0.0065,0.0327,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8868,0.9218,0.9218,Stable
+QC_0336,1,40,9,280.63,173.37,0.00127,0.002,0.0309,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8949,0.9279,0.9279,Stable
+QC_0337,9,49,5,171.94,134.27,0.00013,0.002,0.005,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.949,0.959,0.959,Stable
+QC_0338,7,27,11,122.94,107.35,0.00023,0.002,0.0177,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8732,0.9105,0.8732,Stable
+QC_0339,3,51,7,265.77,155.65,0.00058,0.0394,0.019,1,1,-1,Clean (No Bit-Flip),0.6836,0.6469,0.6469,Unstable
+QC_0340,1,35,12,159.16,145.27,0.00061,0.0122,0.0231,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7979,0.829,0.829,Marginal
+QC_0341,3,15,6,190.95,143.04,0.00072,0.0204,0.0302,0,0,-1,Clean (No Bit-Flip),0.7845,0.8112,0.7845,Marginal
+QC_0342,3,14,5,212.3,134.73,0.0001,0.002,0.0106,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9512,0.9598,0.9598,Stable
+QC_0343,2,71,24,233.29,161.88,0.00114,0.0259,0.0109,1,0,-1,Clean (No Bit-Flip),0.4682,0.35,0.4682,Unstable
+QC_0344,3,18,7,193.49,123.93,0.00046,0.002,0.018,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.906,0.9358,0.906,Stable
+QC_0345,3,84,37,150.87,124.66,0.00038,0.0057,0.0113,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6771,0.6345,0.6345,Unstable
+QC_0346,5,78,24,189.85,162.96,0.00238,0.0142,0.005,0,0,-1,Clean (No Bit-Flip),0.541,0.35,0.541,Unstable
+QC_0347,5,97,28,161.13,140.96,0.00081,0.0034,0.0164,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7439,0.7515,0.7439,Marginal
+QC_0348,1,14,4,191.21,180.42,0.0001,0.0044,0.024,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9534,0.9607,0.9607,Stable
+QC_0349,3,80,22,253.27,216.82,0.00085,0.002,0.0179,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8306,0.8682,0.8682,Stable
+QC_0350,5,98,31,214.02,164.93,0.0001,0.002,0.0224,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8025,0.8348,0.8348,Marginal
+QC_0351,5,109,28,189.3,123.55,0.0001,0.0077,0.0214,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6831,0.6459,0.6459,Unstable
+QC_0352,9,5,0,213.23,158.87,0.00031,0.009,0.0108,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9452,0.9574,0.9452,Stable
+QC_0353,5,9,1,216.45,112.23,0.00303,0.012,0.0185,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.871,0.9085,0.9085,Stable
+QC_0354,2,24,2,131.5,109.82,0.00012,0.0065,0.0073,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9573,0.9621,0.9621,Stable
+QC_0355,1,12,2,181.88,127.44,0.00067,0.0083,0.0144,0,0,-1,Clean (No Bit-Flip),0.9539,0.9608,0.9539,Stable
+QC_0356,5,47,5,295.31,150.32,0.00011,0.002,0.0184,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8891,0.9236,0.9236,Stable
+QC_0357,1,80,23,234.58,123.89,0.00077,0.002,0.018,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8507,0.8894,0.8507,Stable
+QC_0358,5,5,0,157.35,106.11,0.00042,0.0336,0.009,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9532,0.9606,0.9532,Stable
+QC_0359,9,61,23,152.86,116.56,0.00068,0.002,0.0104,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8393,0.8778,0.8778,Stable
+QC_0360,5,68,8,151.36,107.3,0.00014,0.0091,0.02,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7961,0.8267,0.8267,Marginal
+QC_0361,3,88,15,218.98,170.51,0.00082,0.002,0.0238,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.823,0.8597,0.823,Marginal
+QC_0362,5,32,11,252.34,180.71,0.00326,0.0101,0.0166,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.733,0.734,0.733,Marginal
+QC_0363,3,111,34,206.2,164.5,0.00066,0.0098,0.0162,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6093,0.4925,0.4925,Unstable
+QC_0364,5,41,5,187.07,111.98,0.00041,0.0021,0.0245,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8371,0.8754,0.8371,Marginal
+QC_0365,9,51,20,160.01,88.13,0.00154,0.0025,0.0126,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7926,0.8221,0.7926,Marginal
+QC_0366,3,105,42,194.82,149.7,0.0001,0.0085,0.0301,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6002,0.4719,0.4719,Unstable
+QC_0367,16,80,17,143.09,102.76,0.00079,0.004,0.0086,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.812,0.8466,0.8466,Marginal
+QC_0368,9,41,8,92.89,47.57,0.00132,0.002,0.0253,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7905,0.8193,0.8193,Marginal
+QC_0369,2,53,23,253.66,170.26,0.0001,0.0105,0.0218,1,1,-1,Clean (No Bit-Flip),0.729,0.7274,0.7274,Marginal
+QC_0370,1,117,37,134.74,73.8,0.00036,0.002,0.0349,0,1,-1,Clean (No Bit-Flip),0.6995,0.6762,0.6762,Unstable
+QC_0371,2,48,13,165.38,122.24,0.00014,0.0155,0.0102,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7592,0.775,0.775,Marginal
+QC_0372,1,60,23,209.54,142.09,0.0005,0.0058,0.005,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7931,0.8227,0.7931,Marginal
+QC_0373,1,32,6,244.55,189.75,0.00063,0.002,0.0267,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9281,0.9491,0.9491,Stable
+QC_0374,5,115,28,191.57,165.23,0.00022,0.0095,0.0077,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6947,0.6675,0.6947,Unstable
+QC_0375,1,83,16,126.28,80.17,0.00037,0.0059,0.0223,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8262,0.8633,0.8262,Marginal
+QC_0376,3,10,3,166.44,155.28,0.0002,0.0028,0.0263,1,0,-1,Clean (No Bit-Flip),0.9103,0.9386,0.9103,Stable
+QC_0377,7,112,33,149.47,110.76,0.00028,0.0044,0.0207,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6667,0.6142,0.6142,Unstable
+QC_0378,1,65,21,178.28,138.74,0.0001,0.0028,0.0196,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.892,0.9258,0.892,Stable
+QC_0379,7,24,4,235.44,189.84,0.0013,0.0024,0.0208,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8548,0.8935,0.8548,Stable
+QC_0380,3,118,20,65.82,52.66,0.0001,0.002,0.0239,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7286,0.7267,0.7267,Marginal
+QC_0381,2,82,22,161.49,117.88,0.00128,0.0036,0.0221,1,1,-1,Clean (No Bit-Flip),0.7664,0.7856,0.7856,Marginal
+QC_0382,5,6,2,158.22,109.64,0.00051,0.0023,0.0095,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.943,0.9564,0.9564,Stable
+QC_0383,5,77,21,123.45,64.71,0.00024,0.0092,0.0308,0,0,-1,Clean (No Bit-Flip),0.6017,0.4753,0.6017,Unstable
+QC_0384,9,41,4,206.35,105.22,0.00077,0.0092,0.0184,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.83,0.8676,0.83,Marginal
+QC_0385,7,24,9,116.33,76.9,0.00043,0.0056,0.0216,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8263,0.8635,0.8635,Stable
+QC_0386,7,30,3,121.5,79.0,0.00041,0.012,0.023,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8272,0.8645,0.8272,Marginal
+QC_0387,3,33,14,218.3,147.23,0.0001,0.0147,0.0261,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7213,0.7145,0.7145,Marginal
+QC_0388,2,5,0,247.53,139.18,0.0003,0.0069,0.0254,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.948,0.9585,0.948,Stable
+QC_0389,7,39,13,176.58,146.94,0.00017,0.0077,0.0189,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7878,0.8157,0.8157,Marginal
+QC_0390,7,74,9,125.22,110.9,0.0001,0.0027,0.0185,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8417,0.8803,0.8803,Stable
+QC_0391,16,105,43,148.25,136.75,0.00027,0.018,0.0209,1,0,-1,Clean (No Bit-Flip),0.3789,0.35,0.3789,Unstable
+QC_0392,3,63,16,225.36,162.61,0.0001,0.002,0.0257,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8728,0.9101,0.9101,Stable
+QC_0393,3,73,10,185.24,151.04,0.00018,0.0034,0.0102,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9095,0.9381,0.9095,Stable
+QC_0394,7,37,8,175.45,155.28,0.0001,0.0102,0.0225,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7996,0.8312,0.7996,Marginal
+QC_0395,3,117,18,194.09,133.58,0.0001,0.002,0.0118,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8569,0.8956,0.8956,Stable
+QC_0396,9,55,8,178.31,113.98,0.00013,0.002,0.031,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8037,0.8364,0.8037,Marginal
+QC_0397,9,82,35,249.56,229.97,0.004,0.0071,0.0206,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.4767,0.35,0.4767,Unstable
+QC_0398,3,16,4,146.29,107.09,0.0001,0.0066,0.0151,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9222,0.9459,0.9222,Stable
+QC_0399,7,110,41,141.12,102.14,0.00061,0.0107,0.021,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.5025,0.35,0.5025,Unstable
+QC_0400,7,24,7,117.74,68.33,0.0001,0.0134,0.0181,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8126,0.8474,0.8126,Marginal
+QC_0401,2,57,19,155.7,85.43,0.00152,0.002,0.0169,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7797,0.8046,0.8046,Marginal
+QC_0402,9,118,17,130.86,115.02,0.0001,0.002,0.0053,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8583,0.8969,0.8969,Stable
+QC_0403,5,92,16,189.81,147.36,0.00186,0.0094,0.0108,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6696,0.6199,0.6696,Unstable
+QC_0404,7,47,17,180.94,117.0,0.00057,0.0029,0.017,0,0,-1,Clean (No Bit-Flip),0.8034,0.836,0.8034,Marginal
+QC_0405,3,102,44,131.44,77.06,0.0001,0.0079,0.0062,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6217,0.5203,0.5203,Unstable
+QC_0406,9,93,17,206.51,154.88,0.00135,0.002,0.0139,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7758,0.7992,0.7992,Marginal
+QC_0407,3,54,10,248.26,189.36,0.00044,0.0051,0.0145,1,1,-1,Clean (No Bit-Flip),0.8779,0.9145,0.9145,Stable
+QC_0408,1,33,8,196.1,116.32,0.00018,0.0056,0.0125,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9253,0.9477,0.9477,Stable
+QC_0409,9,61,27,65.54,57.88,0.00087,0.007,0.0234,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6422,0.5643,0.5643,Unstable
+QC_0410,1,43,8,269.42,144.93,0.00157,0.0058,0.0118,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8585,0.8971,0.8585,Stable
+QC_0411,3,99,24,213.61,141.04,0.0004,0.0055,0.0186,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7385,0.743,0.7385,Marginal
+QC_0412,16,60,24,268.04,216.09,0.00023,0.0032,0.0155,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8276,0.8649,0.8276,Marginal
+QC_0413,16,115,11,229.08,142.8,0.00093,0.002,0.0172,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7654,0.7843,0.7843,Marginal
+QC_0414,5,47,5,238.07,207.71,0.00069,0.002,0.0292,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8207,0.857,0.857,Stable
+QC_0415,5,54,16,189.24,157.62,0.00132,0.0046,0.0193,1,1,-1,Clean (No Bit-Flip),0.7705,0.7916,0.7916,Marginal
+QC_0416,3,27,11,168.2,143.82,0.00071,0.0035,0.0206,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8748,0.9118,0.8748,Stable
+QC_0417,3,48,8,196.81,108.95,0.00017,0.0058,0.0126,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.896,0.9287,0.9287,Stable
+QC_0418,3,42,11,148.1,83.42,0.00161,0.0029,0.0224,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7987,0.83,0.83,Marginal
+QC_0419,5,88,22,199.52,125.48,0.0001,0.0093,0.0221,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6967,0.6711,0.6711,Unstable
+QC_0420,7,27,7,61.79,45.3,0.00019,0.016,0.0214,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7738,0.7963,0.7738,Marginal
+QC_0421,7,49,15,181.93,152.21,0.00044,0.0028,0.0095,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8775,0.9141,0.9141,Stable
+QC_0422,7,56,14,240.51,210.79,0.0005,0.002,0.0139,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8562,0.8948,0.8562,Stable
+QC_0423,1,84,21,184.24,150.52,0.0001,0.002,0.028,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8987,0.9307,0.9307,Stable
+QC_0424,3,54,14,257.74,236.57,0.00091,0.0077,0.0132,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8006,0.8324,0.8324,Marginal
+QC_0425,1,110,33,168.13,139.96,0.00027,0.0047,0.029,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7719,0.7935,0.7719,Marginal
+QC_0426,5,12,3,225.12,143.59,0.00031,0.002,0.0142,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9136,0.9407,0.9407,Stable
+QC_0427,3,118,47,140.48,87.0,0.00099,0.0085,0.019,1,0,-1,Clean (No Bit-Flip),0.5116,0.35,0.5116,Unstable
+QC_0428,9,89,10,223.29,181.6,0.00029,0.002,0.0167,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8493,0.8881,0.8881,Stable
+QC_0429,3,5,1,190.47,111.76,0.0001,0.0065,0.0121,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9534,0.9607,0.9534,Stable
+QC_0430,2,12,4,170.11,92.15,0.00012,0.006,0.0122,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9347,0.9526,0.9526,Stable
+QC_0431,2,33,6,64.18,47.46,0.00187,0.0106,0.0131,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.807,0.8406,0.8406,Marginal
+QC_0432,7,100,26,168.55,146.6,0.0001,0.002,0.019,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7904,0.8191,0.7904,Marginal
+QC_0433,5,106,26,189.61,103.45,0.00026,0.0175,0.0242,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.5167,0.35,0.35,Unstable
+QC_0434,2,9,1,217.29,186.08,0.00042,0.0097,0.0186,1,1,-1,Clean (No Bit-Flip),0.9488,0.9589,0.9589,Stable
+QC_0435,1,115,27,250.24,216.51,0.00041,0.002,0.0178,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8656,0.9037,0.8656,Stable
+QC_0436,7,90,10,271.58,194.73,0.0001,0.002,0.0265,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8373,0.8756,0.8756,Stable
+QC_0437,1,51,10,236.08,124.13,0.00042,0.0045,0.0183,0,1,-1,Clean (No Bit-Flip),0.8837,0.9193,0.9193,Stable
+QC_0438,7,38,14,154.71,89.51,0.00029,0.0136,0.0142,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7145,0.7028,0.7028,Marginal
+QC_0439,7,69,13,166.28,136.08,0.00215,0.0148,0.011,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6414,0.5627,0.5627,Unstable
+QC_0440,1,59,22,213.25,174.93,0.0001,0.0059,0.0269,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8306,0.8682,0.8682,Stable
+QC_0441,1,94,26,203.38,183.91,0.00026,0.0158,0.0157,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.618,0.5121,0.5121,Unstable
+QC_0442,16,47,19,253.28,193.05,0.00033,0.002,0.0139,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8507,0.8895,0.8895,Stable
+QC_0443,3,78,23,291.57,162.07,0.0003,0.002,0.0133,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8445,0.8832,0.8832,Stable
+QC_0444,3,34,3,282.02,156.42,0.00066,0.0194,0.0265,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8455,0.8842,0.8455,Marginal
+QC_0445,7,118,39,247.23,203.84,0.00015,0.0119,0.014,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.5534,0.3588,0.5534,Unstable
+QC_0446,9,86,9,203.76,118.73,0.00015,0.0048,0.0249,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8153,0.8506,0.8506,Stable
+QC_0447,16,21,5,240.72,155.93,0.00078,0.0112,0.0164,1,1,-1,Clean (No Bit-Flip),0.8505,0.8893,0.8893,Stable
+QC_0448,7,30,12,254.76,183.24,0.00042,0.0249,0.0095,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6874,0.654,0.654,Unstable
+QC_0449,3,12,1,173.37,88.62,0.00032,0.0118,0.0157,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9312,0.9508,0.9312,Stable
+QC_0450,1,51,12,156.03,95.49,0.00011,0.0148,0.0178,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7962,0.8268,0.8268,Marginal
+QC_0451,7,108,38,145.47,99.43,0.00012,0.0114,0.0172,1,0,-1,Clean (No Bit-Flip),0.5452,0.35,0.5452,Unstable
+QC_0452,5,117,47,140.56,87.97,0.0001,0.002,0.017,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7515,0.7634,0.7634,Marginal
+QC_0453,3,80,26,117.81,66.13,0.0001,0.0143,0.0157,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.604,0.4806,0.604,Unstable
+QC_0454,9,95,18,191.25,158.28,0.00049,0.002,0.0125,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8183,0.8542,0.8183,Marginal
+QC_0455,2,76,25,135.01,116.91,0.00133,0.0179,0.0181,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.5091,0.35,0.35,Unstable
+QC_0456,3,93,18,144.74,89.14,0.0002,0.0049,0.0218,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7629,0.7805,0.7805,Marginal
+QC_0457,1,50,17,211.56,179.5,0.00024,0.009,0.0078,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8088,0.8427,0.8088,Marginal
+QC_0458,3,72,31,188.17,126.73,0.0001,0.0055,0.0271,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7386,0.743,0.7386,Marginal
+QC_0459,1,37,13,199.33,145.12,0.0003,0.002,0.005,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9434,0.9566,0.9434,Stable
+QC_0460,2,5,2,241.43,213.72,0.0001,0.0027,0.0185,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9559,0.9616,0.9559,Stable
+QC_0461,2,23,2,218.9,183.33,0.0015,0.0329,0.0213,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8589,0.8974,0.8589,Stable
+QC_0462,5,35,12,248.35,214.15,0.00067,0.0259,0.0138,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6584,0.5977,0.5977,Unstable
+QC_0463,7,84,32,183.6,103.11,0.00281,0.0031,0.005,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6175,0.511,0.511,Unstable
+QC_0464,5,18,2,252.53,134.19,0.00129,0.04,0.0173,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8217,0.8582,0.8217,Marginal
+QC_0465,16,57,23,196.19,176.97,0.00038,0.0149,0.0192,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.5973,0.4652,0.4652,Unstable
+QC_0466,3,52,9,187.59,126.54,0.00044,0.0076,0.01,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8548,0.8935,0.8548,Stable
+QC_0467,3,73,24,245.77,154.72,0.00013,0.002,0.0122,1,0,-1,Clean (No Bit-Flip),0.8845,0.9199,0.8845,Stable
+QC_0468,9,109,41,140.75,116.28,0.00037,0.0185,0.0247,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.3694,0.35,0.3694,Unstable
+QC_0469,2,94,31,271.06,237.56,0.0014,0.0065,0.0188,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6534,0.5876,0.5876,Unstable
+QC_0470,16,66,8,167.31,148.59,0.0001,0.0162,0.0074,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8134,0.8484,0.8134,Marginal
+QC_0471,1,96,29,125.19,80.39,0.0012,0.0144,0.0211,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.5355,0.35,0.5355,Unstable
+QC_0472,16,70,20,209.41,185.01,0.00025,0.0143,0.0115,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6641,0.609,0.6641,Unstable
+QC_0473,1,118,48,163.02,84.51,0.00138,0.0096,0.0126,1,0,-1,Clean (No Bit-Flip),0.4784,0.35,0.4784,Unstable
+QC_0474,9,68,16,271.16,141.64,0.0017,0.0028,0.0194,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7554,0.7692,0.7554,Marginal
+QC_0475,5,74,15,160.52,125.3,0.00067,0.0033,0.0187,1,1,-1,Clean (No Bit-Flip),0.8034,0.836,0.836,Marginal
+QC_0476,16,67,24,194.15,102.59,0.00066,0.003,0.0152,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7917,0.8208,0.8208,Marginal
+QC_0477,1,77,18,115.85,74.85,0.00036,0.002,0.0145,0,1,-1,Clean (No Bit-Flip),0.8298,0.8673,0.8673,Stable
+QC_0478,5,37,12,216.58,173.86,0.00108,0.007,0.0162,0,0,-1,Clean (No Bit-Flip),0.7911,0.8201,0.7911,Marginal
+QC_0479,16,45,14,145.02,94.52,0.00196,0.0096,0.0125,0,0,-1,Clean (No Bit-Flip),0.7066,0.6889,0.7066,Marginal
+QC_0480,5,93,38,211.2,122.67,0.0009,0.0154,0.0256,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.4246,0.35,0.4246,Unstable
+QC_0481,5,52,16,160.72,100.71,0.00058,0.002,0.007,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8493,0.8881,0.8493,Marginal
+QC_0482,5,17,4,87.89,62.04,0.00056,0.0063,0.0163,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.878,0.9146,0.9146,Stable
+QC_0483,3,77,11,185.9,132.72,0.00114,0.002,0.0078,0,0,-1,Clean (No Bit-Flip),0.8368,0.8751,0.8368,Marginal
+QC_0484,5,81,11,183.89,156.74,0.00047,0.002,0.0246,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7998,0.8315,0.7998,Marginal
+QC_0485,5,35,5,219.65,183.97,0.00098,0.002,0.0163,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8683,0.9061,0.9061,Stable
+QC_0486,9,109,17,250.02,176.41,0.00043,0.0103,0.0106,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.721,0.714,0.721,Marginal
+QC_0487,1,79,25,266.06,234.28,0.0001,0.002,0.0228,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8827,0.9184,0.9184,Stable
+QC_0488,3,72,25,218.89,120.7,0.00029,0.0101,0.005,0,0,-1,Clean (No Bit-Flip),0.6891,0.6572,0.6891,Unstable
+QC_0489,16,102,29,192.54,118.39,0.00035,0.0023,0.02,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7355,0.7381,0.7381,Marginal
+QC_0490,9,106,41,115.77,101.02,0.0001,0.0168,0.0261,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.4026,0.35,0.4026,Unstable
+QC_0491,3,114,50,189.09,126.71,0.0001,0.0134,0.0193,1,1,-1,Clean (No Bit-Flip),0.4434,0.35,0.35,Unstable
+QC_0492,5,8,3,189.67,178.58,0.00046,0.0253,0.0145,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8521,0.8909,0.8521,Stable
+QC_0493,3,106,36,171.06,121.42,0.0001,0.0172,0.0093,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.4876,0.35,0.35,Unstable
+QC_0494,2,23,6,208.48,178.54,0.00022,0.0217,0.0256,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.823,0.8596,0.823,Marginal
+QC_0495,3,74,19,230.49,156.97,0.00082,0.0157,0.0245,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.632,0.5427,0.5427,Unstable
+QC_0496,3,102,13,143.17,98.96,0.002,0.0095,0.0135,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6683,0.6175,0.6683,Unstable
+QC_0497,5,86,20,142.47,95.78,0.00076,0.002,0.0137,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7647,0.7832,0.7647,Marginal
+QC_0498,1,17,7,173.73,143.08,0.00295,0.0025,0.0263,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.902,0.933,0.933,Stable
+QC_0499,16,109,41,152.31,113.69,0.00072,0.002,0.0217,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7155,0.7046,0.7046,Marginal
+QC_0500,16,27,4,106.14,98.15,0.00021,0.0074,0.0055,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9187,0.9439,0.9187,Stable
+QC_0501,5,87,22,135.15,82.84,0.00067,0.0056,0.0166,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7272,0.7243,0.7243,Marginal
+QC_0502,5,113,43,124.55,67.91,0.00073,0.0161,0.0164,0,0,-1,Clean (No Bit-Flip),0.3287,0.35,0.3287,Unstable
+QC_0503,3,79,9,234.38,158.67,0.00028,0.0244,0.0197,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7263,0.7228,0.7228,Marginal
+QC_0504,7,5,1,256.63,199.53,0.0001,0.0042,0.018,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9078,0.937,0.937,Stable
+QC_0505,5,92,36,130.71,115.98,0.00073,0.0056,0.0144,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6713,0.6233,0.6233,Unstable
+QC_0506,2,58,13,204.57,134.16,0.0001,0.0285,0.0192,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6439,0.5679,0.5679,Unstable
+QC_0507,9,75,9,219.31,174.18,0.0006,0.0026,0.0149,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8547,0.8934,0.8934,Stable
+QC_0508,7,93,26,112.85,74.21,0.00011,0.0126,0.0419,1,0,-1,Clean (No Bit-Flip),0.5375,0.35,0.5375,Unstable
+QC_0509,9,89,35,187.24,145.63,0.0005,0.002,0.0189,1,1,-1,Clean (No Bit-Flip),0.7759,0.7993,0.7993,Marginal
+QC_0510,7,19,5,294.01,264.07,0.00042,0.0092,0.0179,1,0,-1,Clean (No Bit-Flip),0.8624,0.9008,0.8624,Stable
+QC_0511,5,69,12,210.47,127.15,0.0001,0.0023,0.0309,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8078,0.8415,0.8415,Marginal
+QC_0512,3,80,18,168.96,115.22,0.00027,0.0172,0.0084,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6757,0.6318,0.6318,Unstable
+QC_0513,9,75,19,154.79,146.58,0.00055,0.0066,0.0172,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7559,0.7701,0.7559,Marginal
+QC_0514,9,19,5,88.99,79.28,0.00113,0.002,0.0114,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9039,0.9344,0.9344,Stable
+QC_0515,1,25,9,201.17,151.7,0.00132,0.002,0.0224,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9188,0.9439,0.9439,Stable
+QC_0516,1,23,3,267.65,196.05,0.0004,0.0054,0.0145,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9523,0.9603,0.9603,Stable
+QC_0517,3,64,26,143.39,90.06,0.00078,0.0261,0.0221,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.4254,0.35,0.4254,Unstable
+QC_0518,7,97,10,92.9,68.07,0.00023,0.0117,0.0216,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7095,0.6941,0.7095,Marginal
+QC_0519,16,93,21,150.11,132.35,0.00025,0.0054,0.0235,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.721,0.7139,0.7139,Marginal
+QC_0520,2,37,4,219.67,177.57,0.00013,0.0033,0.0217,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9269,0.9485,0.9269,Stable
+QC_0521,5,53,12,160.72,101.34,0.0005,0.0064,0.0164,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8103,0.8446,0.8103,Marginal
+QC_0522,3,100,28,143.08,84.51,0.00023,0.011,0.0082,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6556,0.592,0.592,Unstable
+QC_0523,16,117,32,180.86,112.02,0.0001,0.0123,0.0251,1,0,-1,Clean (No Bit-Flip),0.555,0.3626,0.555,Unstable
+QC_0524,7,39,6,190.34,109.71,0.00069,0.0031,0.0279,1,1,-1,Clean (No Bit-Flip),0.8185,0.8544,0.8544,Stable
+QC_0525,7,48,15,117.52,63.82,0.00074,0.0102,0.0114,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7475,0.7572,0.7572,Marginal
+QC_0526,3,106,12,170.22,117.22,0.00027,0.0086,0.0232,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7942,0.8242,0.8242,Marginal
+QC_0527,3,94,34,157.62,86.85,0.0001,0.0256,0.0098,0,0,-1,Clean (No Bit-Flip),0.3412,0.35,0.3412,Unstable
+QC_0528,3,15,6,151.16,87.27,0.00033,0.0214,0.0194,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8023,0.8346,0.8023,Marginal
+QC_0529,1,103,22,134.23,100.18,0.00035,0.0125,0.0209,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6473,0.575,0.6473,Unstable
+QC_0530,9,76,21,222.36,127.65,0.00066,0.0103,0.015,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6873,0.6539,0.6539,Unstable
+QC_0531,7,114,26,151.0,79.84,0.00023,0.0026,0.0187,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7757,0.7991,0.7757,Marginal
+QC_0532,16,82,8,90.23,58.0,0.00069,0.015,0.0239,1,1,-1,Clean (No Bit-Flip),0.7121,0.6986,0.6986,Unstable
+QC_0533,16,78,18,191.89,114.97,0.00123,0.0045,0.0172,1,1,-1,Clean (No Bit-Flip),0.7441,0.7517,0.7517,Marginal
+QC_0534,5,70,26,212.63,155.62,0.00016,0.0025,0.0133,0,1,-1,Clean (No Bit-Flip),0.8104,0.8447,0.8447,Marginal
+QC_0535,7,50,15,144.18,78.73,0.00232,0.0039,0.0094,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7401,0.7454,0.7401,Marginal
+QC_0536,9,13,1,154.82,129.78,0.00029,0.0145,0.0153,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9038,0.9343,0.9038,Stable
+QC_0537,7,7,2,150.79,136.89,0.00019,0.002,0.0098,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9412,0.9556,0.9556,Stable
+QC_0538,2,89,25,164.4,137.2,0.00033,0.0049,0.0154,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7713,0.7928,0.7713,Marginal
+QC_0539,3,30,11,229.81,170.01,0.0001,0.0054,0.0147,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8755,0.9124,0.8755,Stable
+QC_0540,2,76,23,174.87,155.16,0.0001,0.002,0.0236,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8786,0.915,0.8786,Stable
+QC_0541,16,52,15,217.78,176.99,0.00032,0.002,0.0185,0,1,-1,Clean (No Bit-Flip),0.8387,0.8771,0.8771,Stable
+QC_0542,5,70,9,136.4,68.85,0.00086,0.014,0.0358,1,1,-1,Clean (No Bit-Flip),0.6677,0.6162,0.6162,Unstable
+QC_0543,2,74,11,162.73,110.23,0.00138,0.0142,0.005,1,1,-1,Clean (No Bit-Flip),0.7451,0.7534,0.7534,Marginal
+QC_0544,5,32,14,222.93,196.83,0.00066,0.0028,0.0202,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8279,0.8653,0.8653,Stable
+QC_0545,5,97,17,143.75,94.25,0.0001,0.0166,0.0148,1,0,-1,Clean (No Bit-Flip),0.6633,0.6075,0.6633,Unstable
+QC_0546,3,30,13,225.55,116.35,0.00067,0.0118,0.0113,0,1,-1,Clean (No Bit-Flip),0.7778,0.8019,0.8019,Marginal
+QC_0547,2,29,8,151.72,126.81,0.00061,0.0043,0.0178,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9045,0.9347,0.9045,Stable
+QC_0548,5,16,2,165.53,142.5,0.00098,0.011,0.0173,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8792,0.9156,0.9156,Stable
+QC_0549,5,9,1,255.16,146.02,0.00105,0.026,0.0255,0,0,-1,Clean (No Bit-Flip),0.8442,0.8828,0.8442,Marginal
+QC_0550,7,102,17,160.39,118.98,0.00122,0.0049,0.0186,1,0,-1,Clean (No Bit-Flip),0.7153,0.7042,0.7153,Marginal
+QC_0551,5,52,22,186.54,109.38,0.00032,0.0022,0.0132,1,1,-1,Clean (No Bit-Flip),0.8472,0.8859,0.8859,Stable
+QC_0552,9,41,10,207.74,171.11,0.00072,0.0228,0.0203,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6879,0.6549,0.6879,Unstable
+QC_0553,5,83,19,190.19,118.34,0.00019,0.0074,0.0164,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7615,0.7784,0.7784,Marginal
+QC_0554,5,48,10,191.48,122.99,0.004,0.002,0.0101,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7398,0.745,0.7398,Marginal
+QC_0555,9,104,15,177.46,156.2,0.00012,0.0068,0.0163,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8025,0.8348,0.8025,Marginal
+QC_0556,3,19,5,121.4,86.72,0.0001,0.0056,0.0196,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8921,0.9259,0.9259,Stable
+QC_0557,2,47,6,195.67,156.81,0.0001,0.0155,0.0185,0,1,-1,Clean (No Bit-Flip),0.8542,0.8929,0.8929,Stable
+QC_0558,1,52,20,147.04,100.14,0.0009,0.0061,0.0203,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7659,0.7849,0.7659,Marginal
+QC_0559,7,91,20,214.91,136.27,0.00036,0.0024,0.0143,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8033,0.8359,0.8359,Marginal
+QC_0560,5,74,17,241.74,188.91,0.00036,0.009,0.0202,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7402,0.7456,0.7402,Marginal
+QC_0561,7,50,13,98.75,56.26,0.00186,0.0063,0.0188,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7294,0.7281,0.7294,Marginal
+QC_0562,2,118,30,241.82,161.5,0.00151,0.0021,0.0189,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.728,0.7257,0.728,Marginal
+QC_0563,2,112,50,161.5,95.94,0.00022,0.0068,0.0182,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.5482,0.35,0.35,Unstable
+QC_0564,1,47,13,174.11,141.57,0.00014,0.0138,0.0332,1,1,-1,Clean (No Bit-Flip),0.7877,0.8155,0.8155,Marginal
+QC_0565,3,113,14,138.94,128.51,0.00113,0.002,0.0258,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7686,0.7888,0.7686,Marginal
+QC_0566,5,25,7,188.48,178.68,0.00142,0.008,0.0201,0,1,-1,Clean (No Bit-Flip),0.811,0.8454,0.8454,Marginal
+QC_0567,3,27,4,183.01,128.58,0.00047,0.0034,0.0124,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9226,0.9461,0.9461,Stable
+QC_0568,3,111,12,228.46,140.19,0.0006,0.0028,0.016,1,0,-1,Clean (No Bit-Flip),0.842,0.8806,0.842,Marginal
+QC_0569,9,84,36,146.64,102.54,0.00018,0.004,0.0293,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6918,0.6622,0.6622,Unstable
+QC_0570,3,51,18,254.74,224.49,0.00097,0.0033,0.0141,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8464,0.8851,0.8464,Marginal
+QC_0571,5,19,8,209.91,124.42,0.0006,0.0143,0.0168,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8004,0.8323,0.8323,Marginal
+QC_0572,7,29,7,184.09,170.92,0.00042,0.0026,0.0165,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8857,0.9208,0.9208,Stable
+QC_0573,3,40,11,171.86,112.37,0.0001,0.0106,0.0206,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7985,0.8297,0.7985,Marginal
+QC_0574,5,79,12,166.2,156.83,0.00149,0.002,0.0149,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7904,0.8192,0.7904,Marginal
+QC_0575,9,55,10,169.14,148.4,0.00057,0.0242,0.0192,0,1,-1,Clean (No Bit-Flip),0.6658,0.6125,0.6125,Unstable
+QC_0576,9,19,7,187.58,162.04,0.00013,0.0078,0.0151,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8685,0.9063,0.9063,Stable
+QC_0577,2,72,16,170.6,109.7,0.00056,0.0098,0.0272,1,1,-1,Clean (No Bit-Flip),0.7531,0.7658,0.7658,Marginal
+QC_0578,9,25,9,151.18,76.19,0.00068,0.0028,0.0132,1,0,-1,Clean (No Bit-Flip),0.8779,0.9145,0.8779,Stable
+QC_0579,3,17,5,187.85,126.23,0.00045,0.0042,0.0248,1,0,-1,Clean (No Bit-Flip),0.8941,0.9274,0.8941,Stable
+QC_0580,3,90,14,142.37,90.52,0.00076,0.002,0.0139,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8389,0.8773,0.8389,Marginal
+QC_0581,3,23,6,194.51,100.53,0.00052,0.0216,0.012,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8262,0.8633,0.8262,Marginal
+QC_0582,16,38,12,169.96,123.63,0.00177,0.0054,0.0131,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8059,0.8391,0.8391,Marginal
+QC_0583,3,82,14,211.35,144.01,0.0001,0.008,0.006,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8517,0.8904,0.8904,Stable
+QC_0584,3,72,28,224.51,176.36,0.0001,0.0106,0.0211,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6719,0.6244,0.6244,Unstable
+QC_0585,5,116,33,224.49,175.0,0.00011,0.0037,0.0099,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.767,0.7866,0.767,Marginal
+QC_0586,2,56,8,194.31,107.72,0.0007,0.0102,0.0155,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8429,0.8815,0.8815,Stable
+QC_0587,1,114,34,199.57,187.52,0.00062,0.009,0.0233,1,1,-1,Clean (No Bit-Flip),0.646,0.5723,0.5723,Unstable
+QC_0588,2,31,13,165.48,96.66,0.00134,0.0098,0.0231,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7652,0.784,0.784,Marginal
+QC_0589,2,33,5,210.49,147.42,0.00079,0.0054,0.008,1,1,-1,Clean (No Bit-Flip),0.9256,0.9478,0.9478,Stable
+QC_0590,2,115,44,215.57,155.14,0.00043,0.0039,0.0202,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7331,0.7341,0.7341,Marginal
+QC_0591,2,32,5,109.47,94.79,0.00288,0.002,0.026,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8456,0.8843,0.8843,Stable
+QC_0592,5,39,14,197.03,107.31,0.00019,0.0139,0.0135,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7235,0.7182,0.7235,Marginal
+QC_0593,2,12,4,241.57,167.38,0.00107,0.0075,0.0216,1,0,-1,Clean (No Bit-Flip),0.913,0.9403,0.913,Stable
+QC_0594,3,20,4,163.97,128.36,0.00033,0.0047,0.01,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9395,0.9549,0.9549,Stable
+QC_0595,9,110,23,154.15,92.0,0.00063,0.0231,0.0207,1,1,-1,Clean (No Bit-Flip),0.4661,0.35,0.35,Unstable
+QC_0596,3,40,15,161.11,126.04,0.00078,0.002,0.0189,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8476,0.8864,0.8476,Marginal
+QC_0597,5,34,8,112.28,102.81,0.0006,0.0152,0.0226,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7466,0.7557,0.7557,Marginal
+QC_0598,2,22,7,185.67,176.18,0.0001,0.04,0.0222,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7116,0.6978,0.6978,Unstable
+QC_0599,2,6,0,181.35,93.32,0.00035,0.0174,0.0085,1,1,-1,Clean (No Bit-Flip),0.9799,0.968,0.968,Stable
+QC_0600,1,53,21,188.87,114.46,0.00049,0.0133,0.019,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6717,0.6241,0.6717,Unstable
+QC_0601,2,81,28,198.72,127.11,0.00113,0.0038,0.0282,0,1,-1,Clean (No Bit-Flip),0.7098,0.6947,0.6947,Unstable
+QC_0602,3,8,3,144.09,97.92,0.00035,0.0021,0.005,0,1,-1,Clean (No Bit-Flip),0.9644,0.9643,0.9643,Stable
+QC_0603,2,94,13,192.29,117.11,0.00151,0.0106,0.0248,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6987,0.6748,0.6987,Unstable
+QC_0604,1,93,28,199.94,118.28,0.00035,0.0029,0.0292,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.785,0.8119,0.785,Marginal
+QC_0605,2,98,30,158.02,146.89,0.00048,0.002,0.0076,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8132,0.8481,0.8481,Marginal
+QC_0606,3,79,17,198.91,181.67,0.00095,0.0124,0.0133,0,1,-1,Clean (No Bit-Flip),0.6906,0.6599,0.6599,Unstable
+QC_0607,2,11,2,183.63,95.7,0.00052,0.003,0.0216,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9416,0.9558,0.9558,Stable
+QC_0608,3,99,11,151.6,98.91,0.00193,0.0197,0.0118,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.598,0.4667,0.4667,Unstable
+QC_0609,5,112,40,192.73,131.5,0.00065,0.0147,0.0276,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.3964,0.35,0.3964,Unstable
+QC_0610,5,78,22,166.92,101.41,0.00044,0.0151,0.0254,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.5834,0.4326,0.4326,Unstable
+QC_0611,1,43,5,211.37,165.5,0.0001,0.0118,0.0083,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9137,0.9408,0.9137,Stable
+QC_0612,7,17,5,169.24,133.39,0.00032,0.017,0.0128,0,0,-1,Clean (No Bit-Flip),0.8425,0.8811,0.8425,Marginal
+QC_0613,5,35,9,121.96,107.66,0.00021,0.0131,0.0234,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7702,0.7911,0.7702,Marginal
+QC_0614,1,75,8,192.01,160.02,0.00083,0.0074,0.0231,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8385,0.8769,0.8385,Marginal
+QC_0615,9,67,29,190.32,141.63,0.00014,0.0028,0.0335,1,1,-1,Clean (No Bit-Flip),0.7432,0.7503,0.7503,Marginal
+QC_0616,9,60,25,131.35,104.31,0.00014,0.0175,0.0118,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.5477,0.35,0.35,Unstable
+QC_0617,1,117,32,213.77,133.24,0.00013,0.0147,0.0282,1,1,-1,Clean (No Bit-Flip),0.5691,0.3978,0.3978,Unstable
+QC_0618,3,46,6,211.42,162.13,0.0001,0.0051,0.0116,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9126,0.9401,0.9126,Stable
+QC_0619,7,65,23,140.85,101.43,0.00022,0.002,0.0215,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8103,0.8446,0.8446,Marginal
+QC_0620,7,46,12,150.32,84.18,0.0013,0.0081,0.0242,0,1,-1,Clean (No Bit-Flip),0.7099,0.6948,0.6948,Unstable
+QC_0621,2,60,12,173.61,105.75,0.00089,0.002,0.005,0,1,-1,Clean (No Bit-Flip),0.8679,0.9058,0.9058,Stable
+QC_0622,2,40,10,145.85,92.07,0.0008,0.0209,0.0244,1,1,-1,Clean (No Bit-Flip),0.7307,0.7301,0.7301,Marginal
+QC_0623,3,88,24,208.82,191.26,0.00096,0.0261,0.0277,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.4372,0.35,0.4372,Unstable
+QC_0624,3,72,21,186.7,112.71,0.00019,0.002,0.0257,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8091,0.8431,0.8091,Marginal
+QC_0625,5,11,2,130.79,82.42,0.00131,0.009,0.0324,1,0,-1,Clean (No Bit-Flip),0.8167,0.8522,0.8167,Marginal
+QC_0626,3,58,18,142.99,95.26,0.0001,0.002,0.0248,0,1,-1,Clean (No Bit-Flip),0.8228,0.8594,0.8594,Stable
+QC_0627,3,5,2,233.45,186.45,0.00025,0.0105,0.0142,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.935,0.9527,0.9527,Stable
+QC_0628,7,48,10,249.1,137.8,0.00053,0.0034,0.0267,0,0,-1,Clean (No Bit-Flip),0.7955,0.8259,0.7955,Marginal
+QC_0629,1,49,17,204.24,189.8,0.0001,0.0091,0.0138,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8259,0.863,0.8259,Marginal
+QC_0630,3,110,45,170.49,151.65,0.00079,0.0037,0.0186,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6535,0.5877,0.6535,Unstable
+QC_0631,7,51,13,160.2,121.71,0.00029,0.002,0.0238,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.812,0.8466,0.8466,Marginal
+QC_0632,9,17,4,204.74,164.47,0.00092,0.0042,0.0211,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8606,0.8991,0.8606,Stable
+QC_0633,5,26,8,183.42,93.08,0.00041,0.002,0.0275,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8176,0.8534,0.8176,Marginal
+QC_0634,5,25,7,107.55,70.18,0.00012,0.0069,0.0354,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7781,0.8024,0.7781,Marginal
+QC_0635,2,90,34,226.43,194.29,0.0008,0.002,0.01,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.826,0.8631,0.8631,Stable
+QC_0636,3,96,25,240.56,128.67,0.00017,0.006,0.0157,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7765,0.8002,0.8002,Marginal
+QC_0637,5,13,5,213.18,133.67,0.0004,0.0174,0.0202,0,1,-1,Clean (No Bit-Flip),0.8108,0.8452,0.8452,Marginal
+QC_0638,2,30,3,130.88,99.91,0.0001,0.0146,0.0148,0,0,-1,Clean (No Bit-Flip),0.9082,0.9373,0.9082,Stable
+QC_0639,3,13,1,151.34,93.13,0.00058,0.0171,0.0175,1,1,-1,Clean (No Bit-Flip),0.9219,0.9457,0.9457,Stable
+QC_0640,3,19,6,96.4,88.72,0.00066,0.0204,0.0234,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8025,0.8349,0.8025,Marginal
+QC_0641,1,14,2,251.82,140.76,0.00029,0.002,0.0225,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9663,0.9649,0.9663,Stable
+QC_0642,3,92,16,163.95,140.8,0.00185,0.002,0.0197,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7495,0.7602,0.7602,Marginal
+QC_0643,2,46,9,285.0,207.64,0.00124,0.0065,0.019,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8488,0.8876,0.8488,Marginal
+QC_0644,3,76,14,267.99,224.48,0.00074,0.018,0.0164,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6884,0.6559,0.6559,Unstable
+QC_0645,2,28,3,139.35,89.16,0.00075,0.0293,0.0278,0,0,-1,Clean (No Bit-Flip),0.8288,0.8663,0.8288,Marginal
+QC_0646,9,84,36,148.13,108.36,0.00017,0.002,0.0296,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6949,0.6679,0.6949,Unstable
+QC_0647,5,53,9,200.98,177.98,0.00064,0.0035,0.0251,1,1,-1,Clean (No Bit-Flip),0.8149,0.8502,0.8502,Stable
+QC_0648,5,30,10,101.05,71.75,0.00013,0.002,0.01,1,1,-1,Clean (No Bit-Flip),0.9051,0.9352,0.9352,Stable
+QC_0649,7,95,34,160.28,106.08,0.0001,0.0113,0.0162,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.5465,0.35,0.35,Unstable
+QC_0650,3,41,17,155.78,115.48,0.004,0.0082,0.0194,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6575,0.5959,0.5959,Unstable
+QC_0651,1,72,7,263.3,216.65,0.00058,0.002,0.0114,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9256,0.9478,0.9478,Stable
+QC_0652,5,54,21,187.25,131.0,0.00034,0.0053,0.0186,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7775,0.8016,0.8016,Marginal
+QC_0653,5,28,7,167.19,154.23,0.0002,0.0093,0.0182,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8333,0.8713,0.8713,Stable
+QC_0654,7,23,7,151.58,95.91,0.00056,0.0121,0.0256,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7857,0.8128,0.7857,Marginal
+QC_0655,3,104,33,220.23,157.24,0.0001,0.002,0.0145,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8526,0.8914,0.8526,Stable
+QC_0656,2,64,24,157.65,132.52,0.0001,0.0177,0.0261,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.5944,0.4585,0.4585,Unstable
+QC_0657,3,43,9,177.74,143.99,0.0001,0.0067,0.0113,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8795,0.9158,0.8795,Stable
+QC_0658,3,78,27,151.24,134.4,0.00041,0.0134,0.0123,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6254,0.5284,0.6254,Unstable
+QC_0659,5,93,26,111.71,105.96,0.00055,0.0132,0.0153,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.5937,0.4567,0.5937,Unstable
+QC_0660,5,22,8,135.18,93.56,0.0001,0.002,0.0183,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8653,0.9035,0.8653,Stable
+QC_0661,3,23,10,157.41,86.58,0.00077,0.002,0.005,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9299,0.9501,0.9299,Stable
+QC_0662,16,40,6,168.15,86.38,0.00016,0.0102,0.0212,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8088,0.8428,0.8088,Marginal
+QC_0663,5,78,34,170.13,140.71,0.00069,0.002,0.03,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6934,0.6651,0.6934,Unstable
+QC_0664,2,101,13,176.0,157.22,0.00241,0.0152,0.0226,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.5856,0.4377,0.5856,Unstable
+QC_0665,2,59,5,158.01,94.7,0.0007,0.0104,0.0165,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8482,0.8869,0.8869,Stable
+QC_0666,2,118,13,240.71,137.52,0.00129,0.0148,0.0104,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.654,0.5887,0.654,Unstable
+QC_0667,2,73,16,222.66,117.56,0.00178,0.0028,0.0053,1,1,-1,Clean (No Bit-Flip),0.807,0.8405,0.8405,Marginal
+QC_0668,2,51,16,173.92,151.35,0.0004,0.003,0.0065,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8818,0.9177,0.9177,Stable
+QC_0669,2,53,6,191.44,122.55,0.00073,0.0089,0.0171,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8692,0.9069,0.9069,Stable
+QC_0670,3,103,10,163.26,111.14,0.00115,0.002,0.0327,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7672,0.7868,0.7868,Marginal
+QC_0671,2,112,47,52.04,37.8,0.00026,0.0104,0.005,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.3655,0.35,0.3655,Unstable
+QC_0672,9,102,39,180.92,158.81,0.00018,0.0145,0.0229,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.4501,0.35,0.4501,Unstable
+QC_0673,1,37,14,193.75,153.62,0.00176,0.0043,0.0133,1,1,-1,Clean (No Bit-Flip),0.8565,0.8952,0.8952,Stable
+QC_0674,5,25,10,107.43,83.45,0.00078,0.0116,0.0157,1,0,-1,Clean (No Bit-Flip),0.7898,0.8184,0.7898,Marginal
+QC_0675,3,85,29,202.47,117.24,0.00015,0.002,0.0114,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8148,0.85,0.85,Stable
+QC_0676,16,26,3,167.37,122.34,0.00036,0.0031,0.0084,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.927,0.9486,0.9486,Stable
+QC_0677,2,52,12,195.21,160.44,0.00096,0.0293,0.0189,1,0,-1,Clean (No Bit-Flip),0.6313,0.5413,0.6313,Unstable
+QC_0678,3,41,14,168.73,158.27,0.00048,0.0343,0.0198,0,1,-1,Clean (No Bit-Flip),0.5464,0.35,0.35,Unstable
+QC_0679,16,19,3,236.29,139.56,0.00063,0.0057,0.0227,1,1,-1,Clean (No Bit-Flip),0.8615,0.8999,0.8999,Stable
+QC_0680,9,39,13,190.18,95.91,0.00084,0.0218,0.0062,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6872,0.6537,0.6872,Unstable
+QC_0681,7,96,10,225.11,120.18,0.00058,0.0059,0.0241,0,0,-1,Clean (No Bit-Flip),0.748,0.7579,0.748,Marginal
+QC_0682,3,75,15,228.81,153.11,0.00047,0.0028,0.0242,0,1,-1,Clean (No Bit-Flip),0.8216,0.858,0.858,Stable
+QC_0683,2,36,10,129.62,112.67,0.00083,0.0025,0.021,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8737,0.9109,0.9109,Stable
+QC_0684,5,15,4,146.74,73.84,0.00078,0.0212,0.0151,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.832,0.8698,0.832,Marginal
+QC_0685,9,14,4,200.32,141.33,0.0006,0.002,0.0202,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.878,0.9146,0.878,Stable
+QC_0686,5,77,26,163.55,106.01,0.00027,0.0069,0.0169,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.68,0.6401,0.6401,Unstable
+QC_0687,5,82,8,169.26,88.63,0.00031,0.0065,0.0248,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7944,0.8244,0.8244,Marginal
+QC_0688,3,81,10,237.9,167.15,0.00211,0.0108,0.0154,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6969,0.6715,0.6715,Unstable
+QC_0689,7,61,24,166.03,102.05,0.0001,0.0055,0.0188,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7592,0.775,0.775,Marginal
+QC_0690,2,29,9,136.4,89.8,0.00019,0.0025,0.0058,1,0,-1,Clean (No Bit-Flip),0.9428,0.9564,0.9428,Stable
+QC_0691,3,6,0,142.48,116.48,0.00041,0.002,0.0201,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9377,0.954,0.954,Stable
+QC_0692,3,68,26,278.21,204.4,0.00109,0.0078,0.0128,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7135,0.701,0.701,Marginal
+QC_0693,5,39,7,171.98,95.64,0.00011,0.0102,0.0216,1,1,-1,Clean (No Bit-Flip),0.8177,0.8535,0.8535,Stable
+QC_0694,2,11,2,118.61,110.62,0.00019,0.0067,0.0235,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9304,0.9504,0.9304,Stable
+QC_0695,2,89,13,100.37,78.91,0.0001,0.0107,0.0137,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7667,0.7861,0.7667,Marginal
+QC_0696,5,22,7,151.89,128.29,0.00073,0.002,0.0182,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8655,0.9036,0.9036,Stable
+QC_0697,3,71,23,171.16,91.68,0.00016,0.0171,0.0192,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.5983,0.4674,0.5983,Unstable
+QC_0698,5,46,7,222.71,116.07,0.0003,0.007,0.0206,0,1,-1,Clean (No Bit-Flip),0.8199,0.8561,0.8561,Stable
+QC_0699,2,43,17,218.36,111.09,0.00035,0.002,0.0235,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8835,0.9191,0.8835,Stable
+QC_0700,3,45,10,179.71,105.13,0.00133,0.005,0.0226,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8203,0.8566,0.8203,Marginal
+QC_0701,5,117,23,159.56,109.54,0.00032,0.0149,0.0153,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.5711,0.4027,0.5711,Unstable
+QC_0702,1,79,12,195.28,179.88,0.0001,0.0182,0.0292,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7601,0.7763,0.7763,Marginal
+QC_0703,3,107,20,101.31,71.49,0.00045,0.0025,0.0233,0,1,-1,Clean (No Bit-Flip),0.7379,0.742,0.742,Marginal
+QC_0704,2,28,3,269.15,169.73,0.00198,0.0099,0.0278,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8634,0.9017,0.9017,Stable
+QC_0705,1,64,19,209.43,157.68,0.00056,0.002,0.0204,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8891,0.9236,0.9236,Stable
+QC_0706,16,50,19,219.01,120.54,0.00246,0.002,0.0208,0,0,-1,Clean (No Bit-Flip),0.7202,0.7126,0.7202,Marginal
+QC_0707,3,23,6,131.66,101.94,0.0011,0.0066,0.0172,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8672,0.9051,0.8672,Stable
+QC_0708,7,72,12,237.72,179.67,0.0001,0.0095,0.0149,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8088,0.8428,0.8428,Marginal
+QC_0709,3,94,10,159.3,136.42,0.00064,0.0127,0.0248,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7521,0.7643,0.7643,Marginal
+QC_0710,5,106,18,137.13,129.46,0.0002,0.0033,0.0199,1,1,-1,Clean (No Bit-Flip),0.8076,0.8412,0.8412,Marginal
+QC_0711,7,46,11,178.24,109.24,0.00049,0.002,0.0171,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8388,0.8772,0.8772,Stable
+QC_0712,5,36,13,177.19,129.23,0.0002,0.0052,0.0108,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.844,0.8827,0.844,Marginal
+QC_0713,3,43,7,131.47,119.5,0.00026,0.002,0.0289,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8666,0.9046,0.8666,Stable
+QC_0714,3,113,39,139.73,119.23,0.00154,0.002,0.0188,1,1,-1,Clean (No Bit-Flip),0.6916,0.6618,0.6618,Unstable
+QC_0715,3,114,45,136.2,97.98,0.00014,0.0032,0.0094,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.694,0.6662,0.694,Unstable
+QC_0716,9,40,10,136.63,126.44,0.00124,0.0046,0.0186,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.799,0.8304,0.799,Marginal
+QC_0717,7,108,41,162.54,85.45,0.0001,0.0026,0.0166,1,1,-1,Clean (No Bit-Flip),0.75,0.7611,0.7611,Marginal
+QC_0718,16,105,30,117.5,107.97,0.0001,0.007,0.0163,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7004,0.6779,0.7004,Marginal
+QC_0719,2,101,32,148.89,77.83,0.00116,0.002,0.022,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6741,0.6287,0.6287,Unstable
+QC_0720,7,40,11,227.03,169.43,0.0006,0.002,0.0166,1,0,-1,Clean (No Bit-Flip),0.8674,0.9053,0.8674,Stable
+QC_0721,9,7,1,217.05,195.5,0.00083,0.0095,0.0159,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.908,0.9371,0.9371,Stable
+QC_0722,2,77,14,132.76,82.07,0.00014,0.002,0.0275,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8363,0.8745,0.8745,Stable
+QC_0723,1,12,2,223.12,158.98,0.00046,0.0082,0.0058,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9664,0.9649,0.9649,Stable
+QC_0724,7,101,20,91.51,59.11,0.0008,0.002,0.0176,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6898,0.6585,0.6585,Unstable
+QC_0725,5,74,21,289.31,268.62,0.00059,0.0042,0.0245,1,0,-1,Clean (No Bit-Flip),0.7626,0.7801,0.7626,Marginal
+QC_0726,7,45,6,238.51,207.66,0.00038,0.002,0.0224,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8608,0.8993,0.8993,Stable
+QC_0727,2,107,45,154.81,126.8,0.00193,0.002,0.0251,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6166,0.509,0.509,Unstable
+QC_0728,7,72,25,197.21,150.75,0.00068,0.0067,0.0322,0,1,-1,Clean (No Bit-Flip),0.6398,0.5593,0.5593,Unstable
+QC_0729,2,17,4,116.96,101.67,0.00143,0.0211,0.0299,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8367,0.8749,0.8367,Marginal
+QC_0730,2,53,8,182.72,123.61,0.00079,0.002,0.0099,1,0,-1,Clean (No Bit-Flip),0.911,0.9391,0.911,Stable
+QC_0731,2,64,26,171.74,120.45,0.0008,0.0044,0.0067,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8053,0.8384,0.8053,Marginal
+QC_0732,7,6,2,142.44,118.01,0.0001,0.0098,0.0203,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8816,0.9176,0.9176,Stable
+QC_0733,5,64,22,158.91,105.04,0.00027,0.005,0.0085,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8124,0.8472,0.8124,Marginal
+QC_0734,5,9,1,154.49,81.69,0.00117,0.0131,0.005,1,1,-1,Clean (No Bit-Flip),0.9491,0.959,0.959,Stable
+QC_0735,3,48,11,129.07,68.85,0.00016,0.002,0.0202,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8494,0.8882,0.8882,Stable
+QC_0736,9,31,4,141.38,78.03,0.0001,0.0257,0.022,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7808,0.8061,0.8061,Marginal
+QC_0737,3,36,5,115.12,102.61,0.00024,0.0039,0.03,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.864,0.9022,0.9022,Stable
+QC_0738,7,25,9,218.58,155.74,0.00015,0.0033,0.0234,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8499,0.8887,0.8499,Marginal
+QC_0739,3,12,4,138.05,113.32,0.00156,0.0166,0.0314,1,1,-1,Clean (No Bit-Flip),0.8286,0.866,0.866,Stable
+QC_0740,3,106,32,125.01,84.61,0.00121,0.0066,0.0205,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6215,0.5199,0.5199,Unstable
+QC_0741,3,76,31,217.87,134.3,0.00042,0.0058,0.01,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7177,0.7084,0.7084,Marginal
+QC_0742,3,54,16,196.63,129.04,0.0001,0.0104,0.0238,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7435,0.7508,0.7508,Marginal
+QC_0743,7,71,18,216.2,185.37,0.00075,0.0069,0.0273,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6978,0.6731,0.6978,Unstable
+QC_0744,5,48,10,221.22,172.85,0.00059,0.002,0.0207,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8353,0.8734,0.8353,Marginal
+QC_0745,2,62,26,267.19,246.33,0.00212,0.009,0.0282,1,1,-1,Clean (No Bit-Flip),0.6433,0.5667,0.5667,Unstable
+QC_0746,9,7,0,172.98,139.4,0.00049,0.002,0.0171,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9133,0.9406,0.9406,Stable
+QC_0747,3,90,38,114.41,86.56,0.00025,0.0131,0.0218,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.4686,0.35,0.4686,Unstable
+QC_0748,5,74,28,192.2,148.87,0.00044,0.0366,0.0168,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.2906,0.35,0.2906,Unstable
+QC_0749,9,6,0,149.89,138.51,0.00233,0.0038,0.0347,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8261,0.8633,0.8261,Marginal
+QC_0750,5,91,27,136.91,117.02,0.00072,0.0047,0.0239,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6638,0.6084,0.6084,Unstable
+QC_0751,2,48,19,184.5,94.24,0.00067,0.002,0.0102,1,1,-1,Clean (No Bit-Flip),0.8814,0.9174,0.9174,Stable
+QC_0752,9,6,1,218.96,162.11,0.00017,0.002,0.031,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8492,0.888,0.888,Stable
+QC_0753,5,106,44,142.38,115.29,0.00082,0.0203,0.0129,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.3004,0.35,0.3004,Unstable
+QC_0754,3,85,36,237.35,198.64,0.00083,0.002,0.0181,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7657,0.7846,0.7657,Marginal
+QC_0755,2,39,9,135.47,80.73,0.00023,0.0047,0.0213,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8651,0.9033,0.8651,Stable
+QC_0756,7,102,23,169.02,150.47,0.0004,0.0135,0.0218,1,1,-1,Clean (No Bit-Flip),0.6093,0.4926,0.4926,Unstable
+QC_0757,5,91,38,197.38,183.59,0.00021,0.0176,0.0214,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.4141,0.35,0.35,Unstable
+QC_0758,5,34,11,162.54,98.59,0.00018,0.0059,0.0101,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8463,0.885,0.8463,Marginal
+QC_0759,9,12,1,100.08,89.79,0.0001,0.0067,0.0214,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8872,0.922,0.922,Stable
+QC_0760,7,26,2,221.73,120.54,0.0002,0.0089,0.0257,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8472,0.886,0.886,Stable
+QC_0761,2,48,14,151.94,79.78,0.00048,0.026,0.0255,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.5958,0.4616,0.4616,Unstable
+QC_0762,3,62,26,213.52,119.18,0.0001,0.0074,0.0089,1,0,-1,Clean (No Bit-Flip),0.7682,0.7883,0.7682,Marginal
+QC_0763,2,40,15,123.11,64.76,0.0002,0.0066,0.0134,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8394,0.8778,0.8394,Marginal
+QC_0764,7,73,24,130.8,115.13,0.00128,0.002,0.0107,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7916,0.8207,0.7916,Marginal
+QC_0765,1,81,12,218.81,115.22,0.00054,0.002,0.0204,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8657,0.9038,0.9038,Stable
+QC_0766,5,97,18,195.32,121.54,0.00056,0.0069,0.0071,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7505,0.7617,0.7617,Marginal
+QC_0767,7,35,14,160.26,87.61,0.00031,0.022,0.0101,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.647,0.5743,0.647,Unstable
+QC_0768,9,51,8,195.98,124.04,0.00068,0.0161,0.0133,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7668,0.7863,0.7668,Marginal
+QC_0769,3,59,11,137.07,74.12,0.00013,0.0324,0.0054,1,1,-1,Clean (No Bit-Flip),0.6577,0.5963,0.5963,Unstable
+QC_0770,7,84,12,184.96,148.08,0.00102,0.006,0.0178,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7647,0.7832,0.7832,Marginal
+QC_0771,2,110,37,185.78,104.04,0.0001,0.0124,0.005,1,1,-1,Clean (No Bit-Flip),0.578,0.4194,0.4194,Unstable
+QC_0772,7,66,28,163.18,144.14,0.00064,0.0147,0.0214,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.5279,0.35,0.5279,Unstable
+QC_0773,2,34,6,142.41,123.58,0.00025,0.0084,0.0152,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9044,0.9347,0.9044,Stable
+QC_0774,3,59,15,183.16,92.71,0.00083,0.0033,0.0136,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8421,0.8807,0.8421,Marginal
+QC_0775,7,20,6,177.53,160.32,0.00048,0.0051,0.0148,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.878,0.9145,0.878,Stable
+QC_0776,2,16,7,159.04,81.59,0.00036,0.0156,0.0176,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8469,0.8856,0.8856,Stable
+QC_0777,2,21,2,133.48,81.13,0.00011,0.0028,0.0222,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9415,0.9558,0.9415,Stable
+QC_0778,7,20,5,180.56,92.91,0.00061,0.0206,0.0272,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7673,0.7869,0.7673,Marginal
+QC_0779,7,16,3,159.15,103.63,0.00221,0.0021,0.0251,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8393,0.8778,0.8778,Stable
+QC_0780,5,12,4,133.44,97.58,0.00105,0.0111,0.0336,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7829,0.809,0.7829,Marginal
+QC_0781,5,88,23,181.96,156.21,0.0001,0.008,0.0227,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6896,0.6582,0.6582,Unstable
+QC_0782,5,7,0,252.37,164.57,0.00028,0.0111,0.019,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9055,0.9354,0.9055,Stable
+QC_0783,3,20,6,163.49,133.65,0.00156,0.0046,0.0148,1,1,-1,Clean (No Bit-Flip),0.8939,0.9272,0.9272,Stable
+QC_0784,3,34,12,247.4,144.57,0.00042,0.0216,0.015,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7014,0.6797,0.7014,Marginal
+QC_0785,2,113,11,275.14,230.51,0.00065,0.008,0.0218,1,1,-1,Clean (No Bit-Flip),0.8022,0.8345,0.8345,Marginal
+QC_0786,9,27,10,137.1,83.11,0.00146,0.0027,0.011,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8662,0.9042,0.8662,Stable
+QC_0787,5,96,15,180.41,101.86,0.00124,0.0081,0.0196,1,0,-1,Clean (No Bit-Flip),0.6866,0.6526,0.6866,Unstable
+QC_0788,3,119,34,274.67,160.25,0.00042,0.0027,0.0179,0,1,-1,Clean (No Bit-Flip),0.7516,0.7635,0.7635,Marginal
+QC_0789,3,108,26,174.55,101.58,0.00035,0.0028,0.0129,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.769,0.7894,0.769,Marginal
+QC_0790,9,9,3,181.66,132.75,0.00025,0.0041,0.0106,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9304,0.9504,0.9304,Stable
+QC_0791,2,88,20,104.85,92.28,0.00076,0.0153,0.0357,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6108,0.4961,0.4961,Unstable
+QC_0792,5,108,43,156.08,83.63,0.0002,0.0055,0.0082,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6749,0.6303,0.6303,Unstable
+QC_0793,5,112,39,205.0,167.72,0.00017,0.0091,0.0175,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.573,0.4073,0.573,Unstable
+QC_0794,5,69,22,289.32,229.85,0.00026,0.004,0.0266,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7723,0.7942,0.7723,Marginal
+QC_0795,1,34,12,171.18,152.8,0.00012,0.0024,0.0217,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9328,0.9516,0.9328,Stable
+QC_0796,9,25,9,105.18,64.15,0.00071,0.0247,0.0147,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7099,0.6948,0.7099,Marginal
+QC_0797,9,88,9,116.76,82.03,0.00057,0.0074,0.0097,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8204,0.8566,0.8566,Stable
+QC_0798,5,74,17,178.39,163.52,0.0004,0.0217,0.0189,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.5947,0.4591,0.4591,Unstable
+QC_0799,5,26,11,232.97,185.68,0.0003,0.002,0.005,0,1,-1,Clean (No Bit-Flip),0.9254,0.9477,0.9477,Stable
+QC_0800,9,86,12,208.68,140.85,0.00144,0.002,0.0192,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.747,0.7564,0.7564,Marginal
+QC_0801,7,76,27,200.71,112.22,0.0001,0.0155,0.0182,1,1,-1,Clean (No Bit-Flip),0.5684,0.3962,0.3962,Unstable
+QC_0802,2,107,47,238.91,147.68,0.00088,0.0091,0.0255,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.4975,0.35,0.35,Unstable
+QC_0803,5,36,4,147.59,112.4,0.00139,0.002,0.01,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8884,0.923,0.8884,Stable
+QC_0804,5,37,12,180.86,148.88,0.00035,0.0025,0.0157,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8715,0.909,0.8715,Stable
+QC_0805,3,20,5,156.58,87.06,0.00048,0.0129,0.0211,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8608,0.8993,0.8993,Stable
+QC_0806,7,80,24,167.78,129.16,0.00173,0.0048,0.0194,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.678,0.6362,0.678,Unstable
+QC_0807,9,42,5,134.72,100.72,0.00014,0.0089,0.0086,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.884,0.9195,0.884,Stable
+QC_0808,9,102,11,164.52,120.31,0.00044,0.0031,0.0135,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8158,0.8512,0.8158,Marginal
+QC_0809,3,18,6,178.75,144.89,0.00039,0.0038,0.0278,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8849,0.9203,0.8849,Stable
+QC_0810,2,40,15,163.28,143.18,0.00018,0.0374,0.0198,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.5165,0.35,0.35,Unstable
+QC_0811,16,101,37,172.75,111.48,0.00102,0.0023,0.0064,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7563,0.7706,0.7706,Marginal
+QC_0812,7,27,7,198.23,178.42,0.00138,0.0056,0.0242,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.813,0.8478,0.813,Marginal
+QC_0813,2,118,15,235.74,134.91,0.00091,0.0149,0.0068,0,0,-1,Clean (No Bit-Flip),0.6634,0.6076,0.6634,Unstable
+QC_0814,9,113,38,239.0,138.11,0.00013,0.0022,0.0159,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.749,0.7595,0.7595,Marginal
+QC_0815,9,70,12,214.26,132.85,0.0001,0.0043,0.0219,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8268,0.864,0.8268,Marginal
+QC_0816,5,109,45,123.3,68.28,0.00056,0.0076,0.0265,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.5192,0.35,0.35,Unstable
+QC_0817,5,89,35,163.78,98.87,0.0001,0.0052,0.005,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7005,0.6782,0.6782,Unstable
+QC_0818,3,6,2,167.66,91.86,0.00067,0.0049,0.023,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9161,0.9423,0.9161,Stable
+QC_0819,1,95,41,150.43,130.84,0.00045,0.0036,0.024,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7637,0.7816,0.7816,Marginal
+QC_0820,3,77,8,195.41,109.92,0.00065,0.0071,0.0141,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8431,0.8817,0.8817,Stable
+QC_0821,7,69,24,108.26,90.53,0.00054,0.0078,0.0186,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6532,0.587,0.6532,Unstable
+QC_0822,1,79,17,256.21,133.63,0.00033,0.0085,0.005,0,0,-1,Clean (No Bit-Flip),0.7909,0.8198,0.7909,Marginal
+QC_0823,3,71,29,233.78,216.68,0.00013,0.002,0.005,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8993,0.9312,0.9312,Stable
+QC_0824,3,56,10,201.52,165.25,0.00022,0.008,0.0258,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8317,0.8695,0.8317,Marginal
+QC_0825,5,66,23,177.21,89.14,0.00045,0.0245,0.0142,0,1,-1,Clean (No Bit-Flip),0.4607,0.35,0.35,Unstable
+QC_0826,9,27,10,235.3,198.53,0.00063,0.0062,0.0156,1,1,-1,Clean (No Bit-Flip),0.8461,0.8848,0.8848,Stable
+QC_0827,3,30,3,211.02,154.33,0.00091,0.01,0.0196,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8845,0.9199,0.8845,Stable
+QC_0828,3,72,17,229.8,195.49,0.00087,0.0065,0.0154,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7713,0.7928,0.7713,Marginal
+QC_0829,7,86,31,177.34,130.37,0.00216,0.0154,0.0148,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.4559,0.35,0.35,Unstable
+QC_0830,3,59,15,260.52,205.41,0.0002,0.0212,0.0208,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6628,0.6066,0.6628,Unstable
+QC_0831,2,10,1,232.51,198.53,0.0001,0.002,0.0075,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9788,0.9678,0.9678,Stable
+QC_0832,3,39,6,202.93,138.46,0.00025,0.0046,0.0261,0,1,-1,Clean (No Bit-Flip),0.8695,0.9072,0.9072,Stable
+QC_0833,2,26,3,236.52,118.55,0.00082,0.004,0.0164,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9294,0.9499,0.9499,Stable
+QC_0834,2,47,18,161.14,142.2,0.00035,0.0042,0.011,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8497,0.8885,0.8497,Marginal
+QC_0835,3,19,5,127.46,85.58,0.00102,0.002,0.01,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9186,0.9438,0.9438,Stable
+QC_0836,3,90,11,194.47,140.64,0.00048,0.0134,0.0183,1,1,-1,Clean (No Bit-Flip),0.7648,0.7833,0.7833,Marginal
+QC_0837,9,64,14,177.43,89.34,0.00159,0.002,0.0159,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7844,0.8111,0.8111,Marginal
+QC_0838,3,105,24,171.1,123.44,0.00177,0.006,0.0072,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6753,0.6311,0.6311,Unstable
+QC_0839,5,110,17,234.73,221.57,0.0001,0.0087,0.0138,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7812,0.8067,0.8067,Marginal
+QC_0840,5,16,4,187.52,117.24,0.00037,0.002,0.0123,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9131,0.9404,0.9404,Stable
+QC_0841,1,115,24,191.86,130.07,0.00056,0.0189,0.0268,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.5292,0.35,0.5292,Unstable
+QC_0842,5,53,11,165.28,133.75,0.00018,0.0146,0.0189,0,1,-1,Clean (No Bit-Flip),0.7371,0.7406,0.7406,Marginal
+QC_0843,2,46,16,219.65,190.36,0.00031,0.0051,0.029,0,0,-1,Clean (No Bit-Flip),0.8281,0.8654,0.8281,Marginal
+QC_0844,16,42,7,211.58,145.53,0.00068,0.0042,0.013,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8737,0.9109,0.8737,Stable
+QC_0845,2,86,27,219.31,140.22,0.00015,0.0022,0.016,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8695,0.9072,0.9072,Stable
+QC_0846,3,49,14,157.62,145.33,0.00055,0.0105,0.0207,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7743,0.7971,0.7743,Marginal
+QC_0847,1,39,11,238.68,192.07,0.00072,0.002,0.0222,0,1,-1,Clean (No Bit-Flip),0.9078,0.937,0.937,Stable
+QC_0848,16,34,11,262.74,145.44,0.0001,0.0091,0.023,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7775,0.8016,0.8016,Marginal
+QC_0849,5,92,26,217.89,115.7,0.00041,0.0148,0.0118,1,0,-1,Clean (No Bit-Flip),0.5899,0.4478,0.5899,Unstable
+QC_0850,5,110,44,143.58,103.03,0.00018,0.0021,0.012,1,0,-1,Clean (No Bit-Flip),0.7811,0.8066,0.7811,Marginal
+QC_0851,1,34,11,143.9,86.2,0.00077,0.0161,0.0155,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7614,0.7783,0.7783,Marginal
+QC_0852,7,82,23,163.11,100.2,0.00013,0.002,0.0284,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.783,0.8092,0.8092,Marginal
+QC_0853,2,10,3,154.6,138.36,0.00134,0.0195,0.011,0,1,-1,Clean (No Bit-Flip),0.9015,0.9327,0.9327,Stable
+QC_0854,9,71,22,176.8,95.53,0.00034,0.002,0.0143,0,1,-1,Clean (No Bit-Flip),0.7904,0.8191,0.8191,Marginal
+QC_0855,2,84,16,208.46,171.34,0.00013,0.0083,0.0231,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8091,0.8431,0.8091,Marginal
+QC_0856,2,11,1,193.05,120.08,0.00035,0.0023,0.0227,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9438,0.9568,0.9438,Stable
+QC_0857,1,56,8,189.1,159.25,0.00032,0.0145,0.0219,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8445,0.8832,0.8832,Stable
+QC_0858,3,18,7,169.15,139.56,0.00034,0.0057,0.0186,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.885,0.9203,0.9203,Stable
+QC_0859,5,77,26,176.68,88.93,0.00053,0.002,0.0105,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7681,0.7882,0.7681,Marginal
+QC_0860,1,19,8,215.85,157.38,0.00044,0.0068,0.0132,0,1,-1,Clean (No Bit-Flip),0.9089,0.9377,0.9377,Stable
+QC_0861,7,25,7,89.46,50.34,0.0001,0.0042,0.0259,1,1,-1,Clean (No Bit-Flip),0.827,0.8643,0.8643,Stable
+QC_0862,3,39,10,179.49,159.71,0.0001,0.0087,0.0234,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8399,0.8784,0.8784,Stable
+QC_0863,5,70,8,192.96,172.16,0.00078,0.0171,0.0087,1,0,-1,Clean (No Bit-Flip),0.7795,0.8043,0.7795,Marginal
+QC_0864,3,95,31,215.26,148.15,0.00049,0.0042,0.0241,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7486,0.7589,0.7589,Marginal
+QC_0865,3,6,1,134.55,94.18,0.00027,0.0027,0.0272,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9145,0.9413,0.9413,Stable
+QC_0866,5,39,17,132.17,84.12,0.00099,0.002,0.0184,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7848,0.8116,0.8116,Marginal
+QC_0867,2,86,15,206.28,169.66,0.00029,0.0068,0.021,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8065,0.8399,0.8399,Marginal
+QC_0868,2,82,23,94.3,62.37,0.00095,0.0041,0.0251,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6835,0.6466,0.6466,Unstable
+QC_0869,9,24,7,239.95,148.89,0.00022,0.0038,0.0131,0,1,-1,Clean (No Bit-Flip),0.8892,0.9236,0.9236,Stable
+QC_0870,9,86,28,190.2,132.09,0.0001,0.002,0.0343,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7569,0.7716,0.7716,Marginal
+QC_0871,3,14,4,250.14,135.37,0.00162,0.0045,0.0266,0,0,-1,Clean (No Bit-Flip),0.8746,0.9117,0.8746,Stable
+QC_0872,3,29,10,131.08,109.58,0.0003,0.0333,0.0217,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6377,0.5549,0.6377,Unstable
+QC_0873,5,70,12,160.36,81.09,0.00094,0.0028,0.0178,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7677,0.7876,0.7876,Marginal
+QC_0874,3,29,10,71.65,56.6,0.0002,0.0073,0.0215,0,0,-1,Clean (No Bit-Flip),0.8064,0.8397,0.8064,Marginal
+QC_0875,1,58,18,144.19,83.96,0.00062,0.012,0.0071,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7404,0.7459,0.7404,Marginal
+QC_0876,2,37,15,171.73,103.82,0.00124,0.0111,0.0326,1,0,-1,Clean (No Bit-Flip),0.7376,0.7414,0.7376,Marginal
+QC_0877,7,40,15,91.68,72.06,0.0001,0.0032,0.0259,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7672,0.7868,0.7672,Marginal
+QC_0878,5,99,20,162.24,153.61,0.00107,0.0076,0.0282,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.63,0.5384,0.63,Unstable
+QC_0879,1,18,3,90.57,76.98,0.00051,0.0164,0.0182,0,0,-1,Clean (No Bit-Flip),0.9075,0.9368,0.9075,Stable
+QC_0880,2,69,30,168.41,101.32,0.00056,0.002,0.0155,1,1,-1,Clean (No Bit-Flip),0.8343,0.8723,0.8723,Stable
+QC_0881,2,114,32,231.62,134.16,0.00044,0.0046,0.0133,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7221,0.7159,0.7159,Marginal
+QC_0882,5,84,35,178.43,158.76,0.00125,0.002,0.0237,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7159,0.7052,0.7052,Marginal
+QC_0883,1,58,9,254.62,178.2,0.0001,0.0039,0.0144,1,0,-1,Clean (No Bit-Flip),0.9344,0.9524,0.9344,Stable
+QC_0884,2,114,37,215.38,120.98,0.00018,0.0043,0.0167,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7127,0.6998,0.6998,Unstable
+QC_0885,7,56,21,240.67,213.71,0.00125,0.011,0.0218,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.637,0.5533,0.5533,Unstable
+QC_0886,2,7,3,145.58,126.25,0.00084,0.002,0.0134,0,1,-1,Clean (No Bit-Flip),0.9532,0.9606,0.9606,Stable
+QC_0887,5,103,22,144.49,136.22,0.0001,0.0057,0.0253,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7413,0.7473,0.7413,Marginal
+QC_0888,2,45,15,195.55,177.83,0.00044,0.0066,0.0179,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8426,0.8812,0.8426,Marginal
+QC_0889,1,10,2,109.0,96.28,0.00045,0.0055,0.0074,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.973,0.9666,0.9666,Stable
+QC_0890,2,29,3,201.2,105.36,0.00031,0.0105,0.0133,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9271,0.9486,0.9486,Stable
+QC_0891,7,17,5,165.42,90.48,0.00021,0.0039,0.0272,1,1,-1,Clean (No Bit-Flip),0.8427,0.8813,0.8813,Stable
+QC_0892,9,102,34,239.85,181.34,0.00069,0.0232,0.0114,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.3828,0.35,0.35,Unstable
+QC_0893,7,12,5,210.58,155.65,0.00014,0.0053,0.0243,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8495,0.8882,0.8495,Marginal
+QC_0894,3,25,6,229.35,161.94,0.00096,0.0068,0.0189,0,1,-1,Clean (No Bit-Flip),0.8707,0.9083,0.9083,Stable
+QC_0895,5,102,18,146.06,99.11,0.00097,0.014,0.0168,0,0,-1,Clean (No Bit-Flip),0.5898,0.4478,0.5898,Unstable
+QC_0896,2,72,8,227.17,157.67,0.00032,0.0026,0.0356,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8777,0.9143,0.9143,Stable
+QC_0897,3,29,7,245.01,185.27,0.0002,0.002,0.009,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9382,0.9543,0.9543,Stable
+QC_0898,9,83,17,178.26,89.3,0.0002,0.0098,0.0128,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7482,0.7583,0.7583,Marginal
+QC_0899,1,72,26,146.73,90.58,0.0004,0.0053,0.0178,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7423,0.749,0.7423,Marginal
+QC_0900,1,49,10,147.52,108.17,0.00076,0.0181,0.0349,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7589,0.7746,0.7589,Marginal
+QC_0901,2,64,27,235.76,194.5,0.00027,0.0324,0.0179,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.369,0.35,0.35,Unstable
+QC_0902,1,16,6,300.8,173.97,0.00057,0.0041,0.0199,0,1,-1,Clean (No Bit-Flip),0.935,0.9527,0.9527,Stable
+QC_0903,2,36,11,135.83,101.34,0.00029,0.0043,0.0156,1,1,-1,Clean (No Bit-Flip),0.896,0.9288,0.9288,Stable
+QC_0904,5,100,42,132.37,108.74,0.00022,0.0042,0.0205,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6376,0.5547,0.5547,Unstable
+QC_0905,3,96,35,221.46,155.04,0.0001,0.0031,0.0161,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8115,0.846,0.8115,Marginal
+QC_0906,9,17,4,146.07,74.82,0.0001,0.0122,0.0229,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8267,0.8639,0.8639,Stable
+QC_0907,7,35,5,225.83,158.57,0.00015,0.0114,0.0234,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8201,0.8563,0.8563,Stable
+QC_0908,3,82,21,200.94,127.28,0.00031,0.0052,0.0164,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8044,0.8373,0.8373,Marginal
+QC_0909,3,24,7,178.92,164.31,0.00114,0.002,0.0101,1,0,-1,Clean (No Bit-Flip),0.923,0.9463,0.923,Stable
+QC_0910,3,22,8,199.86,111.14,0.00096,0.003,0.0187,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8782,0.9147,0.9147,Stable
+QC_0911,5,97,26,197.11,156.43,0.00019,0.0028,0.0278,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7682,0.7883,0.7682,Marginal
+QC_0912,3,64,26,171.92,90.04,0.00017,0.0133,0.0122,1,1,-1,Clean (No Bit-Flip),0.6394,0.5584,0.5584,Unstable
+QC_0913,5,67,22,100.96,70.75,0.00015,0.002,0.0203,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8069,0.8403,0.8403,Marginal
+QC_0914,3,10,1,188.04,140.9,0.00025,0.0131,0.0096,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9521,0.9602,0.9521,Stable
+QC_0915,5,36,16,250.79,159.02,0.00041,0.0088,0.0107,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7795,0.8043,0.7795,Marginal
+QC_0916,3,97,27,107.61,75.84,0.00035,0.0105,0.0271,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6242,0.5259,0.5259,Unstable
+QC_0917,3,47,11,136.54,78.32,0.00015,0.0045,0.0228,1,1,-1,Clean (No Bit-Flip),0.8565,0.8952,0.8952,Stable
+QC_0918,9,6,1,199.21,126.87,0.0001,0.0091,0.0204,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8915,0.9254,0.8915,Stable
+QC_0919,7,64,8,181.74,141.66,0.0001,0.0075,0.005,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8829,0.9186,0.8829,Stable
+QC_0920,2,27,8,198.5,126.21,0.0001,0.0117,0.0141,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.859,0.8975,0.8975,Stable
+QC_0921,9,87,23,148.53,134.4,0.00073,0.0047,0.0222,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7268,0.7237,0.7237,Marginal
+QC_0922,3,35,8,232.31,181.85,0.00017,0.0051,0.0079,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9134,0.9406,0.9134,Stable
+QC_0923,9,119,51,182.11,127.0,0.00038,0.0083,0.0155,0,1,-1,Clean (No Bit-Flip),0.4969,0.35,0.35,Unstable
+QC_0924,7,9,2,211.36,109.37,0.00054,0.002,0.0234,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8733,0.9106,0.8733,Stable
+QC_0925,3,87,15,194.41,140.91,0.00131,0.0046,0.0074,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.795,0.8252,0.795,Marginal
+QC_0926,1,38,9,187.9,158.61,0.00132,0.0286,0.0062,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7097,0.6945,0.7097,Marginal
+QC_0927,3,14,5,208.21,128.98,0.00082,0.002,0.0075,1,1,-1,Clean (No Bit-Flip),0.95,0.9594,0.9594,Stable
+QC_0928,5,93,15,188.39,162.59,0.0001,0.003,0.0203,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8358,0.874,0.8358,Marginal
+QC_0929,5,6,1,126.44,77.55,0.00051,0.003,0.0141,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.923,0.9464,0.9464,Stable
+QC_0930,3,15,1,228.93,199.33,0.00093,0.008,0.0241,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9053,0.9353,0.9353,Stable
+QC_0931,2,54,5,216.82,116.73,0.0001,0.002,0.0188,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9208,0.9451,0.9451,Stable
+QC_0932,7,35,13,85.19,75.8,0.00048,0.0079,0.0312,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.734,0.7357,0.7357,Marginal
+QC_0933,16,60,21,150.56,109.1,0.00117,0.002,0.0093,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8235,0.8602,0.8602,Stable
+QC_0934,5,83,18,226.91,143.73,0.00039,0.002,0.0203,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8212,0.8576,0.8576,Stable
+QC_0935,2,77,26,97.79,60.56,0.0001,0.0104,0.0124,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6812,0.6424,0.6424,Unstable
+QC_0936,3,91,21,222.46,154.48,0.0001,0.0031,0.0222,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8434,0.8821,0.8821,Stable
+QC_0937,1,87,37,173.64,164.89,0.00032,0.0303,0.0188,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.2936,0.35,0.2936,Unstable
+QC_0938,9,13,5,240.31,143.98,0.0001,0.002,0.011,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9227,0.9462,0.9227,Stable
+QC_0939,2,103,24,179.95,98.33,0.00066,0.0047,0.0169,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7227,0.7168,0.7168,Marginal
+QC_0940,5,25,9,147.51,112.59,0.00074,0.002,0.0185,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8655,0.9037,0.8655,Stable
+QC_0941,3,77,28,193.86,139.55,0.00012,0.0035,0.0138,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7966,0.8273,0.7966,Marginal
+QC_0942,5,32,6,178.63,131.45,0.00132,0.04,0.0231,1,1,-1,Clean (No Bit-Flip),0.661,0.6029,0.6029,Unstable
+QC_0943,5,66,11,143.51,114.83,0.00035,0.0176,0.0108,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7253,0.7212,0.7253,Marginal
+QC_0944,7,114,29,279.83,173.55,0.0001,0.002,0.0326,1,1,-1,Clean (No Bit-Flip),0.7644,0.7828,0.7828,Marginal
+QC_0945,2,119,44,136.3,124.01,0.00087,0.0066,0.0247,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6009,0.4734,0.6009,Unstable
+QC_0946,1,11,4,79.07,55.03,0.00094,0.0083,0.0204,1,1,-1,Clean (No Bit-Flip),0.9253,0.9477,0.9477,Stable
+QC_0947,2,84,30,251.18,140.18,0.00061,0.002,0.0379,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7965,0.8272,0.8272,Marginal
+QC_0948,9,20,7,153.74,128.22,0.00115,0.002,0.0158,0,1,-1,Clean (No Bit-Flip),0.8705,0.9081,0.9081,Stable
+QC_0949,9,101,31,166.65,131.55,0.0008,0.0188,0.0223,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.4152,0.35,0.4152,Unstable
+QC_0950,5,8,3,163.89,105.23,0.00128,0.0277,0.0196,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8149,0.8502,0.8502,Stable
+QC_0951,5,8,2,154.37,120.36,0.00034,0.0385,0.0236,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8155,0.8509,0.8509,Stable
+QC_0952,5,107,24,145.52,87.16,0.00083,0.0125,0.0285,1,1,-1,Clean (No Bit-Flip),0.5536,0.3593,0.3593,Unstable
+QC_0953,2,44,12,135.14,94.62,0.004,0.0087,0.0218,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7045,0.6853,0.6853,Unstable
+QC_0954,9,21,8,182.91,165.49,0.00077,0.0034,0.0253,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8265,0.8637,0.8265,Marginal
+QC_0955,3,105,12,161.91,90.68,0.0001,0.002,0.0141,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8925,0.9261,0.9261,Stable
+QC_0956,3,107,40,212.87,143.47,0.00044,0.002,0.0166,0,1,-1,Clean (No Bit-Flip),0.7507,0.762,0.762,Marginal
+QC_0957,5,56,9,201.72,175.4,0.00053,0.0095,0.0295,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7581,0.7734,0.7581,Marginal
+QC_0958,1,97,27,138.26,129.45,0.00011,0.0123,0.0222,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6652,0.6112,0.6112,Unstable
+QC_0959,2,56,21,184.88,130.21,0.00198,0.014,0.0197,1,1,-1,Clean (No Bit-Flip),0.6214,0.5196,0.5196,Unstable
+QC_0960,7,40,7,161.2,117.38,0.00012,0.0196,0.0127,1,1,-1,Clean (No Bit-Flip),0.8018,0.8341,0.8341,Marginal
+QC_0961,1,42,7,135.38,102.54,0.00012,0.017,0.0248,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8474,0.8862,0.8862,Stable
+QC_0962,5,107,25,211.02,194.05,0.00148,0.04,0.0125,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.2813,0.35,0.35,Unstable
+QC_0963,2,54,22,174.54,154.68,0.00038,0.0022,0.0105,0,1,-1,Clean (No Bit-Flip),0.8646,0.9028,0.9028,Stable
+QC_0964,3,67,6,161.66,93.24,0.0001,0.0115,0.0188,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8578,0.8964,0.8964,Stable
+QC_0965,3,105,43,141.5,98.56,0.00055,0.0071,0.005,0,1,-1,Clean (No Bit-Flip),0.5796,0.4232,0.4232,Unstable
+QC_0966,3,67,10,133.74,94.8,0.00055,0.0024,0.0223,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8309,0.8686,0.8686,Stable
+QC_0967,7,66,29,269.49,230.44,0.0001,0.0321,0.0206,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.3313,0.35,0.35,Unstable
+QC_0968,3,103,44,195.04,150.43,0.00216,0.0183,0.0155,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.3228,0.35,0.35,Unstable
+QC_0969,5,11,3,130.9,103.99,0.00047,0.002,0.0162,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9003,0.9318,0.9318,Stable
+QC_0970,3,31,8,192.95,183.15,0.00049,0.002,0.0172,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9122,0.9399,0.9399,Stable
+QC_0971,5,96,25,227.79,121.58,0.00044,0.0093,0.0125,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6514,0.5834,0.5834,Unstable
+QC_0972,9,90,29,187.54,112.59,0.00057,0.0074,0.0193,0,0,-1,Clean (No Bit-Flip),0.6254,0.5283,0.6254,Unstable
+QC_0973,7,18,2,241.83,165.3,0.00018,0.022,0.0163,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8754,0.9124,0.8754,Stable
+QC_0974,2,75,8,110.57,72.59,0.0002,0.0021,0.0188,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8698,0.9075,0.8698,Stable
+QC_0975,1,105,12,90.39,46.08,0.00043,0.002,0.0169,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8539,0.8926,0.8926,Stable
+QC_0976,3,90,22,191.72,103.78,0.00099,0.0024,0.0155,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7935,0.8232,0.7935,Marginal
+QC_0977,5,9,1,192.44,155.19,0.0001,0.002,0.0199,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8999,0.9316,0.8999,Stable
+QC_0978,1,59,18,40.0,35.83,0.00055,0.002,0.0235,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8292,0.8668,0.8292,Marginal
+QC_0979,3,6,2,151.94,111.13,0.00099,0.0197,0.0143,0,1,-1,Clean (No Bit-Flip),0.9082,0.9372,0.9372,Stable
+QC_0980,5,66,15,134.61,99.97,0.0001,0.0035,0.0208,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.793,0.8226,0.793,Marginal
+QC_0981,3,95,28,117.36,72.15,0.0001,0.0042,0.0216,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7002,0.6776,0.6776,Unstable
+QC_0982,7,25,6,134.5,113.73,0.00023,0.002,0.009,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.929,0.9497,0.929,Stable
+QC_0983,2,106,42,206.81,173.37,0.00053,0.0025,0.0248,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7357,0.7384,0.7384,Marginal
+QC_0984,1,83,34,134.22,102.64,0.0001,0.0131,0.0324,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.54,0.35,0.35,Unstable
+QC_0985,7,25,10,135.76,80.87,0.00033,0.0076,0.0174,0,1,-1,Clean (No Bit-Flip),0.802,0.8342,0.8342,Marginal
+QC_0986,3,14,6,107.15,58.26,0.00048,0.0112,0.0168,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8667,0.9047,0.8667,Stable
+QC_0987,5,91,9,237.1,125.4,0.00055,0.0047,0.0165,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8002,0.832,0.832,Marginal
+QC_0988,3,62,24,199.56,153.0,0.00019,0.003,0.0223,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8362,0.8745,0.8745,Stable
+QC_0989,2,43,15,67.84,59.11,0.00031,0.0053,0.0216,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7884,0.8165,0.7884,Marginal
+QC_0990,7,9,1,135.8,120.35,0.0009,0.0031,0.0069,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9504,0.9595,0.9504,Stable
+QC_0991,7,69,29,203.78,144.41,0.0017,0.0146,0.0119,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.506,0.35,0.506,Unstable
+QC_0992,5,17,2,237.66,202.71,0.00119,0.0028,0.0216,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8716,0.909,0.909,Stable
+QC_0993,3,89,30,217.84,201.74,0.0005,0.0086,0.017,1,0,-1,Clean (No Bit-Flip),0.6819,0.6436,0.6819,Unstable
+QC_0994,5,94,16,163.99,102.3,0.00032,0.002,0.0098,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8267,0.8639,0.8639,Stable
+QC_0995,3,118,29,93.09,63.21,0.00024,0.0093,0.0285,0,1,-1,Clean (No Bit-Flip),0.5549,0.3624,0.3624,Unstable
+QC_0996,1,113,39,219.16,201.45,0.0001,0.0196,0.0124,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.4362,0.35,0.35,Unstable
+QC_0997,9,89,26,166.64,108.68,0.0001,0.0075,0.0183,0,1,-1,Clean (No Bit-Flip),0.6722,0.6249,0.6249,Unstable
+QC_0998,2,57,14,183.1,166.85,0.0007,0.0066,0.0168,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8162,0.8517,0.8517,Stable
+QC_0999,16,86,18,172.02,161.95,0.00018,0.026,0.0104,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.5522,0.3557,0.3557,Unstable
+QC_1000,3,105,41,119.0,94.94,0.00018,0.0079,0.0193,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.5653,0.3886,0.3886,Unstable
+QC_1001,2,49,7,196.39,170.39,0.00379,0.0024,0.0207,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7655,0.7843,0.7655,Marginal
+QC_1002,5,36,9,190.19,159.25,0.00012,0.0028,0.0147,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8794,0.9158,0.8794,Stable
+QC_1003,9,40,16,160.84,131.05,0.0001,0.0098,0.0156,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7503,0.7614,0.7614,Marginal
+QC_1004,7,85,33,201.2,128.39,0.0001,0.0106,0.0222,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.595,0.4597,0.4597,Unstable
+QC_1005,7,103,24,118.17,62.12,0.00052,0.0029,0.005,0,1,-1,Clean (No Bit-Flip),0.7246,0.72,0.72,Marginal
+QC_1006,5,117,42,167.89,109.87,0.00059,0.0034,0.0121,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7104,0.6958,0.7104,Marginal
+QC_1007,5,64,24,181.18,144.96,0.00027,0.0377,0.0195,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.3315,0.35,0.3315,Unstable
+QC_1008,7,15,6,101.93,55.67,0.00046,0.002,0.0143,1,0,-1,Clean (No Bit-Flip),0.8959,0.9286,0.8959,Stable
+QC_1009,2,67,19,177.43,89.67,0.00093,0.0041,0.0142,0,1,-1,Clean (No Bit-Flip),0.7712,0.7926,0.7926,Marginal
+QC_1010,3,25,4,213.01,119.9,0.00102,0.002,0.0243,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8911,0.9251,0.9251,Stable
+QC_1011,2,56,10,166.35,136.76,0.0019,0.0138,0.0136,0,1,-1,Clean (No Bit-Flip),0.7344,0.7362,0.7362,Marginal
+QC_1012,16,59,12,178.46,167.36,0.00104,0.002,0.0319,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7689,0.7892,0.7892,Marginal
+QC_1013,9,30,9,205.31,193.48,0.0005,0.009,0.0057,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8658,0.9039,0.8658,Stable
+QC_1014,1,72,8,162.55,117.41,0.00012,0.002,0.005,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.931,0.9507,0.931,Stable
+QC_1015,7,38,12,166.6,148.47,0.0001,0.0089,0.0242,1,0,-1,Clean (No Bit-Flip),0.7797,0.8046,0.7797,Marginal
+QC_1016,9,56,12,127.05,105.65,0.0001,0.0148,0.0111,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7676,0.7874,0.7874,Marginal
+QC_1017,2,116,23,179.33,130.1,0.00066,0.0041,0.0112,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.758,0.7732,0.758,Marginal
+QC_1018,5,86,35,164.93,124.98,0.00099,0.0059,0.0249,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6265,0.5308,0.5308,Unstable
+QC_1019,9,108,28,202.46,113.73,0.00043,0.0041,0.0145,0,1,-1,Clean (No Bit-Flip),0.7107,0.6962,0.6962,Unstable
+QC_1020,1,103,13,205.36,189.33,0.0001,0.0029,0.0244,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8942,0.9274,0.8942,Stable
+QC_1021,5,109,42,215.6,141.95,0.00046,0.013,0.0137,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.4859,0.35,0.4859,Unstable
+QC_1022,3,97,11,157.13,110.11,0.00165,0.0025,0.0205,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7328,0.7336,0.7328,Marginal
+QC_1023,9,56,19,82.05,65.83,0.00055,0.0103,0.0144,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7031,0.6828,0.6828,Unstable
+QC_1024,16,33,12,213.37,138.75,0.00099,0.002,0.0116,0,1,-1,Clean (No Bit-Flip),0.8613,0.8998,0.8998,Stable
+QC_1025,9,42,9,199.4,122.51,0.00097,0.0023,0.0301,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7948,0.825,0.7948,Marginal
+QC_1026,3,46,17,151.41,118.7,0.00161,0.0033,0.0258,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7911,0.8201,0.8201,Marginal
+QC_1027,9,25,7,204.97,104.79,0.00088,0.0071,0.0129,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8607,0.8992,0.8992,Stable
+QC_1028,7,46,12,114.81,94.64,0.00083,0.0048,0.0168,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.814,0.849,0.849,Marginal
+QC_1029,3,17,1,226.36,165.54,0.00016,0.0109,0.0283,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9,0.9316,0.9316,Stable
+QC_1030,7,117,23,164.99,127.47,0.0001,0.002,0.0111,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8584,0.897,0.897,Stable
+QC_1031,1,109,46,142.7,111.92,0.00044,0.002,0.0115,0,1,-1,Clean (No Bit-Flip),0.7344,0.7363,0.7363,Marginal
+QC_1032,5,68,16,152.02,112.07,0.0001,0.012,0.0213,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7143,0.7024,0.7143,Marginal
+QC_1033,2,21,6,169.58,129.25,0.00197,0.0138,0.0339,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8167,0.8523,0.8167,Marginal
+QC_1034,2,13,3,179.46,144.95,0.00021,0.002,0.0184,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9512,0.9598,0.9598,Stable
+QC_1035,1,45,13,182.17,152.83,0.00115,0.0076,0.0253,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8251,0.862,0.862,Stable
+QC_1036,5,5,0,160.67,132.93,0.00029,0.0038,0.0109,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9441,0.9569,0.9569,Stable
+QC_1037,3,6,1,189.01,168.47,0.00023,0.0126,0.0205,1,1,-1,Clean (No Bit-Flip),0.9252,0.9476,0.9476,Stable
+QC_1038,7,64,22,180.37,105.56,0.00164,0.0166,0.0155,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.5299,0.35,0.35,Unstable
+QC_1039,1,52,8,150.86,102.66,0.00027,0.0152,0.0311,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8293,0.8669,0.8293,Marginal
+QC_1040,3,33,5,144.08,133.49,0.0003,0.012,0.0292,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8361,0.8743,0.8361,Marginal
+QC_1041,5,101,10,207.38,140.7,0.0001,0.0025,0.034,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7953,0.8256,0.7953,Marginal
+QC_1042,7,14,3,203.59,113.24,0.00067,0.0134,0.0131,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8798,0.9161,0.9161,Stable
+QC_1043,3,118,48,182.57,134.45,0.0002,0.0061,0.0182,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6468,0.5739,0.6468,Unstable
+QC_1044,5,62,7,221.59,121.71,0.00053,0.002,0.0206,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8302,0.8678,0.8302,Marginal
+QC_1045,9,64,10,91.74,54.24,0.00054,0.0049,0.0134,1,0,-1,Clean (No Bit-Flip),0.8231,0.8597,0.8231,Marginal
+QC_1046,5,108,22,154.6,146.76,0.00076,0.0228,0.0189,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.4696,0.35,0.4696,Unstable
+QC_1047,2,25,8,127.97,95.16,0.00082,0.0175,0.0244,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7971,0.828,0.7971,Marginal
+QC_1048,1,32,10,281.53,176.75,0.00043,0.002,0.0141,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.931,0.9507,0.931,Stable
+QC_1049,9,79,19,212.09,200.99,0.00024,0.0109,0.0131,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7317,0.7319,0.7319,Marginal
+QC_1050,1,38,13,176.44,164.96,0.00109,0.0131,0.0126,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7731,0.7953,0.7731,Marginal
+QC_1051,9,12,3,215.32,150.37,0.00022,0.0025,0.0086,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9442,0.957,0.9442,Stable
+QC_1052,5,63,26,230.23,142.1,0.00042,0.0051,0.024,0,1,-1,Clean (No Bit-Flip),0.7036,0.6836,0.6836,Unstable
+QC_1053,9,90,34,229.75,201.56,0.00031,0.0099,0.0131,1,1,-1,Clean (No Bit-Flip),0.6295,0.5373,0.5373,Unstable
+QC_1054,7,76,14,221.48,182.06,0.00116,0.0046,0.0123,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7767,0.8004,0.7767,Marginal
+QC_1055,16,53,10,168.19,136.08,0.00034,0.002,0.0217,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8324,0.8703,0.8324,Marginal
+QC_1056,3,83,11,157.44,141.99,0.00029,0.0098,0.0179,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8133,0.8482,0.8482,Marginal
+QC_1057,7,21,4,136.7,110.76,0.0007,0.0194,0.0143,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.833,0.8709,0.833,Marginal
+QC_1058,3,64,28,202.61,127.18,0.00055,0.0085,0.0237,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6513,0.5833,0.6513,Unstable
+QC_1059,3,91,22,172.85,140.39,0.0001,0.0119,0.014,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7073,0.6901,0.7073,Marginal
+QC_1060,5,92,16,161.17,102.76,0.00043,0.0035,0.005,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.855,0.8937,0.855,Stable
+QC_1061,9,49,17,158.82,133.67,0.0008,0.002,0.0273,1,1,-1,Clean (No Bit-Flip),0.7907,0.8195,0.8195,Marginal
+QC_1062,16,87,25,245.26,191.03,0.0029,0.0082,0.0122,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.562,0.3803,0.3803,Unstable
+QC_1063,7,73,11,222.87,119.2,0.0006,0.0032,0.013,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8246,0.8615,0.8615,Stable
+QC_1064,3,36,8,262.37,191.73,0.00028,0.0157,0.013,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8313,0.869,0.869,Stable
+QC_1065,3,48,11,203.81,133.39,0.00015,0.002,0.0184,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8847,0.9201,0.8847,Stable
+QC_1066,7,69,25,182.56,118.27,0.00124,0.0045,0.0161,1,1,-1,Clean (No Bit-Flip),0.7272,0.7245,0.7245,Marginal
+QC_1067,2,91,9,178.86,137.9,0.00101,0.004,0.0249,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8012,0.8332,0.8012,Marginal
+QC_1068,2,105,20,134.09,86.49,0.00016,0.0223,0.0295,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.5612,0.3784,0.5612,Unstable
+QC_1069,3,12,3,123.24,104.7,0.00013,0.002,0.0132,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.948,0.9586,0.9586,Stable
+QC_1070,3,81,15,202.83,107.88,0.00075,0.002,0.0114,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8551,0.8938,0.8938,Stable
+QC_1071,3,76,24,137.94,109.96,0.00023,0.0022,0.0143,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8167,0.8522,0.8167,Marginal
+QC_1072,2,91,24,189.52,163.77,0.00022,0.0137,0.0211,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6549,0.5906,0.5906,Unstable
+QC_1073,1,47,10,230.2,184.8,0.0001,0.002,0.0172,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.935,0.9527,0.935,Stable
+QC_1074,1,5,2,150.05,108.6,0.00018,0.0022,0.0145,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9771,0.9675,0.9771,Stable
+QC_1075,16,113,36,270.47,250.9,0.00033,0.002,0.0089,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8341,0.8721,0.8341,Marginal
+QC_1076,3,55,8,135.42,85.99,0.00079,0.0101,0.005,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8272,0.8644,0.8644,Stable
+QC_1077,3,28,8,224.56,114.22,0.00025,0.002,0.011,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.918,0.9434,0.9434,Stable
+QC_1078,5,103,38,199.11,138.26,0.00024,0.0032,0.0269,1,1,-1,Clean (No Bit-Flip),0.7171,0.7073,0.7073,Marginal
+QC_1079,2,28,9,233.73,120.34,0.0002,0.0027,0.0211,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9024,0.9333,0.9024,Stable
+QC_1080,9,21,3,129.77,120.59,0.00039,0.0065,0.0167,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8888,0.9233,0.8888,Stable
+QC_1081,7,9,3,283.82,168.72,0.00012,0.0105,0.0231,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8549,0.8936,0.8936,Stable
+QC_1082,1,24,6,171.96,147.02,0.0004,0.0061,0.009,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9294,0.9499,0.9294,Stable
+QC_1083,3,25,3,210.45,178.58,0.00073,0.0214,0.0184,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8664,0.9045,0.8664,Stable
+QC_1084,9,108,17,245.0,146.51,0.0001,0.0242,0.0055,1,1,-1,Clean (No Bit-Flip),0.6173,0.5106,0.5106,Unstable
+QC_1085,9,62,8,152.79,119.11,0.0001,0.0036,0.0204,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8382,0.8766,0.8766,Stable
+QC_1086,3,35,13,217.16,113.28,0.0001,0.012,0.0198,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7855,0.8126,0.7855,Marginal
+QC_1087,5,114,16,145.28,104.26,0.00046,0.0107,0.02,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6945,0.6672,0.6945,Unstable
+QC_1088,2,104,14,242.86,123.03,0.00116,0.0179,0.0262,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6345,0.5481,0.6345,Unstable
+QC_1089,16,15,5,145.79,133.33,0.0001,0.0048,0.0234,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8529,0.8917,0.8917,Stable
+QC_1090,2,56,12,181.73,170.69,0.00166,0.006,0.0095,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8047,0.8376,0.8376,Marginal
+QC_1091,9,19,2,193.78,116.27,0.0001,0.0043,0.0263,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8619,0.9003,0.9003,Stable
+QC_1092,5,87,10,215.29,127.81,0.00111,0.0152,0.0165,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7016,0.6801,0.7016,Marginal
+QC_1093,5,11,1,268.58,225.39,0.0004,0.0021,0.005,0,0,-1,Clean (No Bit-Flip),0.966,0.9648,0.966,Stable
+QC_1094,5,119,20,159.66,98.04,0.00065,0.0022,0.0172,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.775,0.798,0.798,Marginal
+QC_1095,2,32,10,231.24,208.76,0.00043,0.0037,0.0225,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8901,0.9243,0.9243,Stable
+QC_1096,2,55,8,268.66,203.72,0.00039,0.0021,0.0109,0,1,-1,Clean (No Bit-Flip),0.9219,0.9457,0.9457,Stable
+QC_1097,2,111,15,187.46,123.32,0.00108,0.0066,0.0273,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7368,0.7401,0.7368,Marginal
+QC_1098,2,62,22,155.24,135.79,0.00085,0.002,0.0115,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8615,0.8999,0.8999,Stable
+QC_1099,7,9,3,102.15,73.75,0.0004,0.0031,0.0146,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9021,0.9331,0.9331,Stable
+QC_1100,3,9,2,264.75,240.98,0.0001,0.0196,0.0133,1,1,-1,Clean (No Bit-Flip),0.9208,0.9451,0.9451,Stable
+QC_1101,1,98,28,169.0,155.08,0.0001,0.0042,0.006,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8448,0.8835,0.8835,Stable
+QC_1102,16,100,20,134.94,77.51,0.00097,0.011,0.011,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6504,0.5813,0.6504,Unstable
+QC_1103,9,12,3,118.88,59.56,0.00045,0.002,0.013,1,0,-1,Clean (No Bit-Flip),0.9167,0.9426,0.9167,Stable
+QC_1104,9,68,18,134.86,127.14,0.00039,0.0023,0.0171,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8064,0.8398,0.8064,Marginal
+QC_1105,16,14,3,221.39,200.97,0.00068,0.0132,0.005,0,1,-1,Clean (No Bit-Flip),0.9219,0.9457,0.9457,Stable
+QC_1106,2,42,17,227.6,119.48,0.00117,0.0115,0.023,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7062,0.6883,0.6883,Unstable
+QC_1107,3,115,12,209.35,183.15,0.00059,0.0039,0.0229,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8155,0.8509,0.8509,Stable
+QC_1108,7,100,37,185.96,131.29,0.00086,0.0247,0.0263,1,0,-1,Clean (No Bit-Flip),0.3026,0.35,0.3026,Unstable
+QC_1109,5,116,16,123.95,76.42,0.00087,0.0193,0.0076,0,1,-1,Clean (No Bit-Flip),0.5673,0.3933,0.3933,Unstable
+QC_1110,2,96,36,147.15,131.77,0.00026,0.0262,0.016,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.3257,0.35,0.35,Unstable
+QC_1111,7,85,26,130.2,76.62,0.00019,0.0045,0.0246,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6718,0.6241,0.6718,Unstable
+QC_1112,2,99,39,205.78,190.61,0.00097,0.002,0.0252,0,1,-1,Clean (No Bit-Flip),0.7374,0.7411,0.7411,Marginal
+QC_1113,2,12,1,132.15,78.3,0.00028,0.0079,0.0284,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9296,0.9499,0.9296,Stable
+QC_1114,5,108,31,147.86,114.76,0.0014,0.0092,0.0187,1,0,-1,Clean (No Bit-Flip),0.5569,0.3674,0.5569,Unstable
+QC_1115,5,29,7,171.74,103.11,0.0001,0.002,0.0176,0,0,-1,Clean (No Bit-Flip),0.8729,0.9102,0.8729,Stable
+QC_1116,5,77,26,104.86,78.18,0.0001,0.0124,0.0071,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6522,0.585,0.585,Unstable
+QC_1117,1,70,20,182.1,147.1,0.00157,0.002,0.0255,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8171,0.8528,0.8528,Stable
+QC_1118,9,83,24,175.18,102.58,0.00063,0.0053,0.0148,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7422,0.7487,0.7422,Marginal
+QC_1119,3,54,13,233.29,171.33,0.00029,0.0032,0.0182,0,1,-1,Clean (No Bit-Flip),0.8638,0.9021,0.9021,Stable
+QC_1120,2,71,14,143.11,101.76,0.00084,0.0108,0.0178,0,1,-1,Clean (No Bit-Flip),0.731,0.7307,0.7307,Marginal
+QC_1121,9,53,14,121.54,64.65,0.00067,0.003,0.005,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8218,0.8583,0.8583,Stable
+QC_1122,16,40,5,163.17,141.67,0.00045,0.014,0.0123,1,0,-1,Clean (No Bit-Flip),0.8521,0.8908,0.8521,Stable
+QC_1123,9,72,31,130.59,85.02,0.0001,0.0072,0.0212,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.6687,0.6182,0.6182,Unstable
+QC_1124,7,82,28,181.76,137.88,0.001,0.0126,0.0177,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.5686,0.3966,0.3966,Unstable
+QC_1125,5,109,47,96.3,70.46,0.00121,0.0363,0.0212,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.1073,0.35,0.1073,Unstable
+QC_1126,5,45,8,152.76,111.66,0.00011,0.0091,0.0235,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7925,0.8219,0.7925,Marginal
+QC_1127,1,93,37,138.22,75.78,0.00114,0.0336,0.0122,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.2078,0.35,0.35,Unstable
+QC_1128,3,66,25,205.55,141.95,0.00126,0.002,0.0144,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.812,0.8466,0.812,Marginal
+QC_1129,3,118,39,143.52,100.98,0.00048,0.0033,0.017,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.6746,0.6296,0.6296,Unstable
+QC_1130,3,14,4,101.88,84.57,0.00064,0.002,0.0234,0,0,-1,Clean (No Bit-Flip),0.8976,0.9299,0.8976,Stable
+QC_1131,7,25,5,170.92,150.07,0.00029,0.0024,0.0164,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8967,0.9292,0.9292,Stable
+QC_1132,3,40,15,194.39,144.87,0.0002,0.0146,0.0055,1,0,-1,Clean (No Bit-Flip),0.7681,0.7882,0.7681,Marginal
+QC_1133,1,16,4,167.8,90.45,0.00077,0.002,0.0166,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9551,0.9613,0.9551,Stable
+QC_1134,2,95,11,152.49,92.5,0.00119,0.0059,0.0231,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7437,0.7511,0.7437,Marginal
+QC_1135,5,108,22,149.78,86.01,0.00064,0.0067,0.0275,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.663,0.6069,0.6069,Unstable
+QC_1136,1,6,2,185.08,102.92,0.00043,0.0066,0.02,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9571,0.962,0.962,Stable
+QC_1137,9,17,6,139.97,93.03,0.0001,0.0052,0.0076,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9207,0.945,0.9207,Stable
+QC_1138,3,57,25,165.22,99.66,0.0001,0.0125,0.0152,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6304,0.5392,0.6304,Unstable
+QC_1139,3,36,11,213.77,127.89,0.00035,0.002,0.0213,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8736,0.9109,0.9109,Stable
+QC_1140,5,99,18,121.44,63.71,0.0001,0.003,0.0241,1,1,-1,Clean (No Bit-Flip),0.7799,0.8049,0.8049,Marginal
+QC_1141,7,20,3,178.03,90.43,0.00051,0.0077,0.0215,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8606,0.8991,0.8991,Stable
+QC_1142,3,36,5,99.5,54.35,0.00029,0.0094,0.0162,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8783,0.9148,0.8783,Stable
+QC_1143,5,36,3,190.26,109.87,0.00085,0.0041,0.024,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8318,0.8696,0.8696,Stable
+QC_1144,5,102,24,135.95,94.34,0.00022,0.0167,0.0135,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.5446,0.35,0.35,Unstable
+QC_1145,3,15,2,225.88,164.83,0.00054,0.0043,0.0193,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9247,0.9473,0.9473,Stable
+QC_1146,9,14,3,113.54,63.95,0.00046,0.0041,0.0232,1,1,-1,Clean (No Bit-Flip),0.8638,0.9021,0.9021,Stable
+QC_1147,7,19,8,199.89,138.16,0.0001,0.002,0.022,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8699,0.9075,0.8699,Stable
+QC_1148,5,21,5,234.95,153.61,0.0001,0.0064,0.0222,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8581,0.8967,0.8581,Stable
+QC_1149,9,44,17,133.62,77.84,0.00021,0.0099,0.022,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7206,0.7132,0.7132,Marginal
+QC_1150,9,22,6,141.22,71.04,0.00128,0.002,0.0107,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8956,0.9284,0.9284,Stable
+QC_1151,7,59,11,137.51,97.65,0.0001,0.0029,0.0181,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8316,0.8694,0.8694,Stable
+QC_1152,7,77,17,158.14,127.86,0.00074,0.0122,0.0116,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.6806,0.6412,0.6412,Unstable
+QC_1153,5,29,3,203.28,122.34,0.00218,0.0036,0.016,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8434,0.8821,0.8821,Stable
+QC_1154,5,108,23,154.46,86.39,0.00094,0.0022,0.0098,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.7223,0.7162,0.7223,Marginal
+QC_1155,5,63,21,129.56,116.49,0.00017,0.0089,0.0204,1,0,-1,Clean (No Bit-Flip),0.7153,0.7042,0.7153,Marginal
+QC_1156,7,82,10,89.16,55.61,0.00143,0.002,0.005,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.81,0.8442,0.81,Marginal
+QC_1157,2,93,15,252.09,151.41,0.0001,0.0181,0.0223,1,0,-1,Clean (No Bit-Flip),0.7037,0.6838,0.7037,Marginal
+QC_1158,9,118,27,255.62,226.4,0.00038,0.002,0.0181,0,1,-1,Clean (No Bit-Flip),0.7834,0.8097,0.8097,Marginal
+QC_1159,9,26,11,205.21,178.06,0.00131,0.0098,0.0313,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7317,0.7319,0.7317,Marginal
+QC_1160,1,34,12,143.53,100.72,0.00062,0.0055,0.0166,0,0,-1,Clean (No Bit-Flip),0.8591,0.8977,0.8591,Stable
+QC_1161,7,88,31,213.65,153.86,0.00032,0.0163,0.0166,1,0,-1,Clean (No Bit-Flip),0.5177,0.35,0.5177,Unstable
+QC_1162,2,89,12,222.69,133.17,0.00021,0.002,0.0228,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8702,0.9078,0.8702,Stable
+QC_1163,3,48,17,168.56,90.22,0.00028,0.0091,0.017,1,0,-1,Clean (No Bit-Flip),0.7758,0.7992,0.7758,Marginal
+QC_1164,7,36,13,181.86,137.86,0.00043,0.0068,0.0199,0,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7851,0.812,0.812,Marginal
+QC_1165,2,55,17,235.43,128.13,0.00023,0.0052,0.025,0,0,-1,Clean (No Bit-Flip),0.8128,0.8476,0.8128,Marginal
+QC_1166,7,50,22,106.18,74.56,0.00208,0.0054,0.0161,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.7006,0.6783,0.6783,Unstable
+QC_1167,7,117,25,224.93,207.66,0.00162,0.0102,0.0264,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.5454,0.35,0.35,Unstable
+QC_1168,5,25,10,166.09,154.26,0.00123,0.0222,0.0062,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7423,0.7489,0.7489,Marginal
+QC_1169,1,103,43,129.93,78.96,0.00033,0.002,0.0292,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.783,0.8092,0.783,Marginal
+QC_1170,3,36,3,133.64,104.35,0.00071,0.002,0.0055,1,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9443,0.957,0.9443,Stable
+QC_1171,5,98,25,141.09,100.64,0.0014,0.0131,0.0275,1,0,-1,Clean (No Bit-Flip),0.5191,0.35,0.5191,Unstable
+QC_1172,16,43,19,125.55,112.25,0.00114,0.002,0.005,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8682,0.9061,0.9061,Stable
+QC_1173,5,117,15,259.71,161.58,0.00032,0.0346,0.0319,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.4718,0.35,0.35,Unstable
+QC_1174,3,16,4,202.1,101.39,0.0001,0.0077,0.0191,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8977,0.93,0.93,Stable
+QC_1175,5,109,48,227.9,130.62,0.0001,0.0084,0.0114,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.5843,0.4346,0.4346,Unstable
+QC_1176,5,51,15,205.31,134.94,0.00052,0.002,0.0311,0,0,-1,Clean (No Bit-Flip),0.7705,0.7916,0.7705,Marginal
+QC_1177,7,22,3,182.76,117.34,0.00062,0.0022,0.0104,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.9242,0.947,0.947,Stable
+QC_1178,2,25,7,183.36,156.98,0.00114,0.0086,0.0164,0,0,-1,Clean (No Bit-Flip),0.8684,0.9063,0.8684,Stable
+QC_1179,7,17,2,162.11,130.7,0.00021,0.0192,0.0362,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7897,0.8183,0.8183,Marginal
+QC_1180,5,25,7,165.79,105.24,0.00011,0.0323,0.0208,1,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.7044,0.685,0.685,Unstable
+QC_1181,16,12,1,116.64,82.34,0.00029,0.002,0.005,0,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9615,0.9634,0.9615,Stable
+QC_1182,3,50,15,228.68,124.17,0.00026,0.002,0.0161,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8675,0.9055,0.8675,Stable
+QC_1183,5,108,30,98.4,88.97,0.0001,0.002,0.0155,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8073,0.8409,0.8409,Marginal
+QC_1184,9,114,40,132.36,121.9,0.00067,0.0162,0.0193,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.4117,0.35,0.4117,Unstable
+QC_1185,2,11,3,270.54,254.56,0.00043,0.0028,0.0177,1,0,-1,Clean (No Bit-Flip),0.9502,0.9594,0.9502,Stable
+QC_1186,9,27,7,186.13,165.81,0.00077,0.002,0.0218,0,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8493,0.888,0.8493,Marginal
+QC_1187,5,112,38,188.0,108.72,0.00026,0.002,0.0073,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.813,0.8479,0.813,Marginal
+QC_1188,1,100,15,208.68,108.68,0.00024,0.0033,0.0142,0,1,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8508,0.8896,0.8896,Stable
+QC_1189,3,79,24,110.68,84.21,0.00038,0.0377,0.0202,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.3226,0.35,0.35,Unstable
+QC_1190,7,90,14,117.28,106.8,0.00126,0.0059,0.0127,1,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.747,0.7563,0.7563,Marginal
+QC_1191,1,26,11,159.98,92.76,0.0001,0.002,0.0257,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.9312,0.9508,0.9312,Stable
+QC_1192,5,111,13,139.35,70.12,0.00098,0.0033,0.0128,1,1,-1,Clean (No Bit-Flip),0.7662,0.7854,0.7854,Marginal
+QC_1193,3,93,23,176.63,152.34,0.00028,0.0032,0.019,1,1,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8291,0.8666,0.8666,Stable
+QC_1194,5,26,8,201.85,107.9,0.00116,0.002,0.0173,0,0,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.8488,0.8876,0.8488,Marginal
+QC_1195,1,96,24,242.51,166.4,0.00097,0.002,0.0109,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.8342,0.8723,0.8342,Marginal
+QC_1196,9,33,4,216.5,174.39,0.00026,0.0095,0.0184,0,1,2,Hardware Disturbance: Bit-Flip on Qubit 2,0.858,0.8966,0.8966,Stable
+QC_1197,16,17,4,135.26,82.04,0.00071,0.002,0.0088,1,0,0,Hardware Disturbance: Bit-Flip on Qubit 0,0.9284,0.9493,0.9284,Stable
+QC_1198,16,86,27,163.13,87.73,0.0001,0.0021,0.0149,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8201,0.8563,0.8201,Marginal
+QC_1199,7,6,2,150.89,127.73,0.00136,0.0035,0.0182,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.896,0.9287,0.896,Stable
+QC_1200,2,33,7,134.25,105.2,0.00031,0.0113,0.008,1,0,1,Hardware Disturbance: Bit-Flip on Qubit 1,0.8867,0.9217,0.8867,Stable
